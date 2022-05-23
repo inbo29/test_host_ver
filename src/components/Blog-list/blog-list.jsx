@@ -26,7 +26,7 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <a className="date" href={blogItem.link} target="_blank">
+                            <a className="date" key={index} href={blogItem.link} target="_blank">
                               <span>
                                 <i>{blogItem.date.day}</i>
                                 {blogItem.date.month}
@@ -40,7 +40,7 @@ const BlogList = ({ blogs }) => {
                             ))}
                           </div>
                           <h5>
-                            <a href={blogItem.link} target="_blank">{blogItem.title}</a>
+                            <a key={index} href={blogItem.link} target="_blank">{blogItem.title}</a>
                           </h5>
                           <p className="mt-10">
                             {blogItem.content.substr(0, 146) + '...'}
