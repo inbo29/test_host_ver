@@ -48,8 +48,26 @@ const NavbarFullMenu = ({ theme }) => {
                 <ul className="main-menu">
                   <li>
                     <div className="o-hidden">
+                      <Link href={`/about`}>
+                        <a className="link">
+                          <span className="nm">01.</span>About Us
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="o-hidden">
+                      <Link href={`/about`}>
+                        <a className="link">
+                          <span className="nm">02.</span>News
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="o-hidden">
                       <span className="link dmenu">
-                        <span className="nm">01.</span>Home
+                        <span className="nm">03.</span>Artist
                         <i className="fas fa-angle-right"></i>
                       </span>
                     </div>
@@ -66,7 +84,7 @@ const NavbarFullMenu = ({ theme }) => {
                           <div className="o-hidden">
                             <Link href={`/homepage/home1-dark`}>
                               <a className="sub-link">
-                                <span className="nm">01.</span>Main Home
+                                <span className="nm">01.</span>Maniac
                               </a>
                             </Link>
                           </div>
@@ -75,63 +93,7 @@ const NavbarFullMenu = ({ theme }) => {
                           <div className="o-hidden">
                             <Link href={`/homepage/home2-dark`}>
                               <a className="sub-link">
-                                <span className="nm">02.</span>Creative Agency
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/homepage/home5-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">03.</span>Digital Agency
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/homepage/home4-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">04.</span>Business One Page
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/homepage/home3-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">05.</span>Corporate
-                                Business
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/homepage/home6-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">06.</span>Modern Agency
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/homepage/home7-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">07.</span>Freelancer
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/homepage/home8-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">08.</span>Architecture
+                                <span className="nm">02.</span>Uranus
                               </a>
                             </Link>
                           </div>
@@ -141,140 +103,11 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about/about-dark`}>
+                      <Link href={`/about`}>
                         <a className="link">
-                          <span className="nm">02.</span>About Us
+                          <span className="nm">04.</span>Schedule
                         </a>
                       </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">03.</span>Works
-                        <i className="fas fa-angle-right"></i>
-                      </span>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/showcase/showcase-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">01.</span>ShowCase Parallax
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/showcase4/showcase4-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">02.</span>ShowCase Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/showcase3/showcase3-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">03.</span>ShowCase Circle
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/works/works-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">04.</span>Portfolio Masonry
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/works2/works2-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">05.</span>Portfolio
-                                Filtering
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/works3/works3-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">06.</span>Portfolio Gallery
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">04.</span>Blogs
-                        <i className="fas fa-angle-right"></i>
-                      </span>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/blog/blog-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">01.</span>Blog Standerd
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/blog-list/blog-list-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">02.</span>Blog List
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/blog-grid/blog-grid-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">03.</span>Blog Grid
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href={`/blog-details/blog-details-dark`}>
-                              <a className="sub-link">
-                                <span className="nm">04.</span>Blog Details
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
                     </div>
                   </li>
                   <li>
@@ -293,18 +126,23 @@ const NavbarFullMenu = ({ theme }) => {
               <div className="cont-info">
                 <div className="item">
                   <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <p>+82 10 8288 2120</p>
                 </div>
                 <div className="item">
                   <h6>Address :</h6>
                   <p>
-                    541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+                    2nd floor, 12,Arirang-ro, Seoungbuk-gu, Seoul
                   </p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Vie_website@gmail.com</a>
+                    <a href="#0">thehowl88@gmail.com</a>
+                  </p>
+                </div>
+                <div className="item">
+                  <p>
+                    Copyright©  GDACS Holdings Co.,ltd. All rights reversed.
                   </p>
                 </div>
               </div>
