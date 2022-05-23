@@ -13,9 +13,9 @@ const Artists = () => {
 	return (
 		<DarkTheme>
 		<NavbarFullMenu />
-		<ArtPagesHeader 
+		{/* <ArtPagesHeader 
 			title="Artist"
-		/>
+		/> */}
 		<Team2Two />
 		<Footer />
 		</DarkTheme>
