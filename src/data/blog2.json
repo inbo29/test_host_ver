@@ -1,35 +1,26 @@
 [
     {
         "id": 1,
-        "title": "How to use solid color combine with simple furnitures.",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l1.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "title": "사인히어 화제의 참가자 - 오양가",
+        "content": "2019년 사인히어 몽골인 참가자 오양가 독특한 음색",
+        "image": "/img/blog/uranus-1.jpg",
+        "tags": ["Uranus","Singer", "Mongolia", "Artists"],
+        "link": "https://m.mbn.co.kr/tv/792/5114/1063139",
         "date": {
-            "day": "07",
+            "day": "22",
             "month": "August"
         }
     },
     {
         "id": 2,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l2.jpg",
-        "tags": ["WordPress"],
+        "title": "Real Hiphop",
+        "content": "Maniac his living in South Korea of the Busan area 7years.",
+        "image": "/img/blog/maniac-2.jpg",
+        "tags": ["Maniac","Rapper", "Uptown", "Artists"],
+        "link": "https://news.v.daum.net/v/20190823102342127?s=print_news",
         "date": {
-            "day": "07",
-            "month": "August"
+            "day": "29",
+            "month": "September"
         }
-    },
-    {
-        "id": 3,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l3.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
-        "date": {
-            "day": "07",
-            "month": "August"
-        }
-    } 
+    }
 ]
