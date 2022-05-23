@@ -19,7 +19,7 @@ const ContactHeader = ({ sliderRef, blackStar }) => {
                   {ContentHeaderDate.title.first} <br />
                   {ContentHeaderDate.title.second}
                 </h1>
-                <p>{ContentHeaderDate.content}</p>
+                {/* <p>{ContentHeaderDate.content}</p> */}
               </div>
             </div>
           </div>
