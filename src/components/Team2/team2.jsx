@@ -60,7 +60,7 @@ const Team2 = () => {
           <div className="col-lg-6 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/img/team/2-1.jpg" alt="" />
+                <img src="/img/team/2.jpg" alt="" />
                 <div id="circle2">
                   <svg
                     version="1.1"

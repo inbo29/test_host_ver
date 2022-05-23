@@ -107,11 +107,11 @@ const ShowcasesFullScreen = () => {
                           </h1>
                           <div className="discover">
                             <Link
-                              href={`/`}
+                              href={`/about`}
                             >
                               <a>
                                 <span>
-                                  Explore <br /> More
+                                  About <br /> Us
                                 </span>
                               </a>
                             </Link>
