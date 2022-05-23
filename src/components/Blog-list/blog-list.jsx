@@ -26,27 +26,35 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <a className="date" key={index} href={blogItem.link} target="_blank">
-                              <span>
-                                <i>{blogItem.date.day}</i>
-                                {blogItem.date.month}
-                              </span>
-                            </a>
+                            <Link href="/blog/blog-dark">
+                              <a className="date">
+                                <span>
+                                  <i>{blogItem.date.day}</i>
+                                  {blogItem.date.month}
+                                </span>
+                              </a>
+                            </Link>
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <a key={index} href={blogItem.link} target="_blank" className="tag">
-                                <span>{tag}</span>
-                              </a>
+                              <Link key={index} href="/blog/blog-dark">
+                                <a className="tag">
+                                  <span>{tag}</span>
+                                </a>
+                              </Link>
                             ))}
                           </div>
                           <h5>
-                            <a key={index} href={blogItem.link} target="_blank">{blogItem.title}</a>
+                            <Link href="/blog-details/blog-details-dark">
+                              <a>{blogItem.title}</a>
+                            </Link>
                           </h5>
                           <p className="mt-10">
                             {blogItem.content.substr(0, 146) + '...'}
                           </p>
                           <div className="btn-more mt-30">
-                            <a className="simple-btn" href={blogItem.link} target="_blank">Read More</a>
+                            <Link href="/blog-details/blog-details-dark">
+                              <a className="simple-btn">Read More</a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -56,13 +64,13 @@ const BlogList = ({ blogs }) => {
               ))}
               <div className="pagination">
                 <span className="active">
-                  <Link href="/news">1</Link>
+                  <Link href={`/blog/blog-dark`}>1</Link>
                 </span>
                 <span>
-                  <Link href="/news">2</Link>
+                  <Link href={`/blog/blog-dark`}>2</Link>
                 </span>
                 <span>
-                  <Link  href="/news">
+                  <Link href={`/blog/blog-dark`}>
                     <a>
                       <i className="fas fa-angle-right"></i>
                     </a>
