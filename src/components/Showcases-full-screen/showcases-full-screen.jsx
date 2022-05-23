@@ -93,12 +93,12 @@ const ShowcasesFullScreen = () => {
                             >
                               <a>
                                 <div
-                                  className="stroke"
+                                  className="stroke neon"
                                   data-swiper-parallax="-2000"
                                 >
                                   {slide.title.first}
                                 </div>
-                                <span data-swiper-parallax="-5000">
+                                <span className="neon" data-swiper-parallax="-5000">
                                   {slide.title.second}
                                 </span>
                               </a>
