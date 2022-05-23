@@ -59,7 +59,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about`}>
+                      <Link href={`/news`}>
                         <a className="link">
                           <span className="nm">02.</span>News
                         </a>
@@ -84,7 +84,7 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/homepage/home1-dark`}>
+                            <Link href={`/`}>
                               <a className="sub-link">
                                 <span className="nm">01.</span>Maniac
                               </a>
@@ -93,7 +93,7 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/homepage/home2-dark`}>
+                            <Link href={`/`}>
                               <a className="sub-link">
                                 <span className="nm">02.</span>Uranus
                               </a>
@@ -105,7 +105,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about`}>
+                      <Link href={`/`}>
                         <a className="link">
                           <span className="nm">04.</span>Schedule
                         </a>
@@ -114,7 +114,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/contact/contact-dark`}>
+                      <Link href={`/contact`}>
                         <a className="link">
                           <span className="nm">05.</span>Contact
                         </a>
