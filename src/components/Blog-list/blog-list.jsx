@@ -34,7 +34,7 @@ const BlogList = ({ blogs }) => {
                             </a>
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <a className="tag" href={blogItem.link} target="_blank">
+                              <a key={index} href={blogItem.link} target="_blank" className="tag">
                                 <span>{tag}</span>
                               </a>
                             ))}
@@ -46,7 +46,7 @@ const BlogList = ({ blogs }) => {
                             {blogItem.content.substr(0, 146) + '...'}
                           </p>
                           <div className="btn-more mt-30">
-                            <a href={blogItem.link} target="_blank" className="simple-btn">Read More</a>
+                            <a className="simple-btn" href={blogItem.link} target="_blank">Read More</a>
                           </div>
                         </div>
                       </div>
@@ -56,13 +56,13 @@ const BlogList = ({ blogs }) => {
               ))}
               <div className="pagination">
                 <span className="active">
-                  <Link href={`/news`}>1</Link>
+                  <Link href="/news">1</Link>
                 </span>
                 <span>
-                  <Link href={`/news`}>2</Link>
+                  <Link href="/news">2</Link>
                 </span>
                 <span>
-                  <Link href={`/news`}>
+                  <Link  href="/news">
                     <a>
                       <i className="fas fa-angle-right"></i>
                     </a>
