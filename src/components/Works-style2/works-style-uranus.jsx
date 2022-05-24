@@ -50,7 +50,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                 </span>
                 <span data-filter=".brand">Photo</span>
                 <span data-filter=".web">Album</span>
-                <span data-filter=".graphic">Creative</span>
+                {/* <span data-filter=".graphic">Creative</span> */}
               </div>
             </div>
           )}
