@@ -21,17 +21,11 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             <div className="col-lg-8 col-md-10">
               <div className="sec-head text-center">
                 <h3 className="wow color-font">
-                  Gallery &amp; Album
+                  Artist
                 </h3>
-                <a href="https://m.facebook.com/Uranus.bbb?_rdr" target="_blank" className="mx-2">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/uranusuya/?igshid=1aa14xv6wpy08" target="_blank" className="mx-2">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.youtube.com/c/Uyanga/featured?app=desktop&disable_polymer=true&itct=CBoQ8JMBGAAiEwiS_uGC79DvAhXJkXwKHZYDAsk%3D" target="_blank" className="mx-2">
-                  <i className="fab fa-youtube"></i>
-                </a>
+                <h6 className="wow fadeIn" data-wow-delay=".5s">
+                  Uranus
+                </h6>
               </div>
             </div>
           </div>
