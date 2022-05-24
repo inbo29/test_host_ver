@@ -68,7 +68,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <a className="imago wow" href="">
-                  <img src="/img/portfolio/portfolio/2/1.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
