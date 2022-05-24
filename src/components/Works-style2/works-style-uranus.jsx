@@ -4,6 +4,7 @@ import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
 import image from "next/image";
 import UraPic from "../../../public/img/portfolio/portfolio/2/2.jpg"
+import UraPicAlbum from "../../../public/img/portfolio/portfolio/2/album1.jpg"
 
 const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -70,8 +71,8 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <a className="imago wow" href="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2600947993459876/?type=3&source=42" target="_blank"> 
-                  <image src={UraPic} />
-                  {/* <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" /> */}
+                  <image src={UraPic} width={500} height={500}/>
+                  <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -91,12 +92,13 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items brand wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/%EB%AF%B8%EB%9E%98%EA%B0%80-single/1520967534" target="_blank">
-                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
+                  <image src={UraPicAlbum} width={500} height={500}/>
+                  <img src="/img/portfolio/portfolio/2/3.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -121,7 +123,8 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/yummy-feat-mekh-zakhq-single/1579641586" target="_blank">
-                  <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
+                  {/* <image src={UraPicAlbum} width={500} height={500}/> */}
+                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -146,7 +149,8 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/let-me-be-single/1520966850" target="_blank">
-                  <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
+                  {/* <image src={UraPicAlbum} width={500} height={500}/> */}
+                  <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -171,7 +175,8 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/let-me-be-single/1520966850" target="_blank">
-                  <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
+                  {/* <image src={UraPicAlbum} width={500} height={500}/> */}
+                  <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -191,12 +196,13 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items brand wow fadeInUp`}
+              } items web wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
                 <a className="imago wow" href="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2235742116647134/?type=3&source=42" target="_blank">
-                  {/* <img src="/img/portfolio/portfolio/2/3.jpg" alt="image" /> */}
+                  {/* <image src={UraPic} width={500} height={500}/> */}
+                  <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
