@@ -5,8 +5,6 @@ import Footer from "../../../components/Footer/footer";
 import WorksStyle2 from "../../../components/Works-style2/works-style2";
 
 const WorksDark = () => {
-	
-
 	return (
 		<DarkTheme>
 		<div className="circle-bg">

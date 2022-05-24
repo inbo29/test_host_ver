@@ -5,8 +5,6 @@ import Footer from "../../../components/Footer/footer";
 import WorksStyleUranus from "../../../components/Works-style2/works-style-uranus";
 
 const WorksDarkUranus = () => {
-	
-
 	return (
 		<DarkTheme>
 		<div className="circle-bg">
