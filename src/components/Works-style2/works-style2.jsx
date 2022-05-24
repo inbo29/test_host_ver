@@ -27,7 +27,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   Artist
                 </h3>
               </div>
-              <div className="author">
+              {/* <div className="author">
                 <div className="author-img">
                   <img src="/img/blog/3-2.jpg" alt="" />
                 </div>
@@ -54,7 +54,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                     
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

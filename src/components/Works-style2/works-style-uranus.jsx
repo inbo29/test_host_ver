@@ -24,7 +24,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                   Artist
                 </h3>
               </div>
-              <div className="author">
+              {/* <div className="author">
                 <div className="author-img">
                   <img src="/img/blog/2-1.jpg" alt="" />
                 </div>
@@ -48,7 +48,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                     
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
