@@ -3,7 +3,7 @@ import DarkTheme from "../../../layouts/Dark";
 import NavbarFullMenu from "../../../components/Navbar-full-menu/navbar.full-menu";
 import Footer from "../../../components/Footer/footer";
 import WorksStyleUranus from "../../../components/Works-style2/works-style-uranus";
-import ArtPagesHeaderUranus from "../../../components/Pages-header/arthead-uranus"
+// import ArtPagesHeaderUranus from "../../../components/Pages-header/arthead-uranus"
 
 const WorksDarkUranus = () => {
 	
@@ -17,7 +17,7 @@ const WorksDarkUranus = () => {
 			</div>
 		</div>
 		<NavbarFullMenu />
-		<ArtPagesHeaderUranus />
+		{/* <ArtPagesHeaderUranus /> */}
 		<div className="main-content">
 			<WorksStyleUranus grid={3} filterPosition="center" />
 			<Footer />
