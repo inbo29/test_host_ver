@@ -67,8 +67,8 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <a className="imago wow" href="">
-                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
+                <a className="imago wow" href="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2600947993459876/?type=3&source=42" target="_blank"> 
+                  <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -92,12 +92,10 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow" href="https://music.apple.com/us/album/%EB%AF%B8%EB%9E%98%EA%B0%80-single/1520967534" target="_blank">
+                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
               {/* <div className="cont">
                 <h6>Through The Breaking</h6>
@@ -119,12 +117,10 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow" href="https://music.apple.com/us/album/yummy-feat-mekh-zakhq-single/1579641586" target="_blank">
+                  <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
               {/* <div className="cont">
                 <h6>Create With Creatives</h6>
@@ -146,12 +142,10 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow" href="https://music.apple.com/us/album/let-me-be-single/1520966850" target="_blank">
+                  <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
               {/* <div className="cont">
                 <h6>Energies of Love</h6>
@@ -173,12 +167,10 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow" href="https://music.apple.com/us/album/let-me-be-single/1520966850" target="_blank">
+                  <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
               {/* <div className="cont">
                 <h6>See It Yourself</h6>
@@ -200,12 +192,10 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a className="imago wow">
-                    {/* <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" /> */}
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow" href="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2235742116647134/?type=3&source=42" target="_blank">
+                  <img src="/img/portfolio/portfolio/2/3.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
               {/* <div className="cont">
                 <h6>Blast From The Past</h6>
