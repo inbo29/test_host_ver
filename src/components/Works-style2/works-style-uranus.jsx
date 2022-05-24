@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-// import Link from "next/link";
+import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
+import image from "next/image";
+import UraPic from "../../../public/img/portfolio/portfolio/2/2.jpg"
 
 const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -68,7 +70,8 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <a className="imago wow" href="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2600947993459876/?type=3&source=42" target="_blank"> 
-                  <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" />
+                  <image src={UraPic} />
+                  {/* <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" /> */}
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
