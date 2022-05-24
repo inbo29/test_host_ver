@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
 
-const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
+const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
     setTimeout(() => {
       initIsotope();
@@ -42,7 +42,6 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                     <a href="#0">
                       <i className="fab fa-facebook-f"></i>
                     </a>
-                    <span></span>
                     <a href="#0">
                       <i className="fab fa-twitter"></i>
                     </a>
@@ -249,4 +248,4 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
   );
 };
 
-export default WorksStyle2;
+export default WorksStyleUranus;
