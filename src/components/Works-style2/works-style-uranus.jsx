@@ -15,19 +15,19 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
         grid ? (grid === 3 ? "three-column" : null) : null
       } portfolio section-padding pb-70`}
     >
-      {/* {!hideFilter && (
+      {!hideFilter && (
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head text-center">
                 <h3 className="wow color-font">
-                  Artist
+                  Gallery &amp; Album
                 </h3>
               </div>
             </div>
           </div>
         </div>
-      )} */}
+      )}
       
       {/* <div className="container">
         <div className="row justify-content-center">
