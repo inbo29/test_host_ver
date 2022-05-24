@@ -20,7 +20,7 @@ const Team2 = () => {
         <div className="row">
           <div className="col-lg-6 col-md-6">
             <Link
-              href={'/artist'}
+              href={'/artist/maniac'}
             >
               <div className="item cir md-mb50">
                 <div className="img">
@@ -64,7 +64,7 @@ const Team2 = () => {
           </div>
           <div className="col-lg-6 col-md-6">
             <Link
-              href={'/artist'}
+              href={'/artist/uranus'}
             >
               <div className="item cir md-mb50">
                 <div className="img">
