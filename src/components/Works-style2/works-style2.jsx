@@ -26,21 +26,6 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 <h3 className="wow color-font">
                   Artist
                 </h3>
-                <div className="social">
-                  <a href="https://www.facebook.com/maniac1shot" target="_blank" className="mx-2">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="https://twitter.com/maniac1shot" target="_blank" className="mx-2">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="https://www.instagram.com/maniac1shot/" target="_blank" className="mx-2">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                  <a href="https://www.youtube.com/user/maniac1shot" target="_blank" className="mx-2">
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                  
-                </div>
               </div>
               {/* <div className="author">
                 <div className="author-img">

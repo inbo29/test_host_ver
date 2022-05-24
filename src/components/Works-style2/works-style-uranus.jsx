@@ -23,6 +23,15 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                 <h3 className="wow color-font">
                   Gallery &amp; Album
                 </h3>
+                <a href="https://m.facebook.com/Uranus.bbb?_rdr" target="_blank" className="mx-2">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/uranusuya/?igshid=1aa14xv6wpy08" target="_blank" className="mx-2">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/c/Uyanga/featured?app=desktop&disable_polymer=true&itct=CBoQ8JMBGAAiEwiS_uGC79DvAhXJkXwKHZYDAsk%3D" target="_blank" className="mx-2">
+                  <i className="fab fa-youtube"></i>
+                </a>
               </div>
             </div>
           </div>
