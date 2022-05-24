@@ -29,7 +29,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
         </div>
       )}
       
-      <div className="container">
+      {/* <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
@@ -61,7 +61,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
 
       <div className={"container"}>
