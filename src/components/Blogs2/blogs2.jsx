@@ -21,7 +21,7 @@ const Blogs2 = () => {
               <div className="row">
                 <div className="col-md-5">
                   <div className="img">
-                    <img src="/img/mobile-app/blog/1.jpg" alt="" />
+                    {/* <img src="/img/mobile-app/blog/1.jpg" alt="" /> */}
                   </div>
                 </div>
                 <div className="col-md-7 valign">
@@ -60,7 +60,7 @@ const Blogs2 = () => {
               <div className="row">
                 <div className="col-md-5">
                   <div className="img">
-                    <img src="/img/mobile-app/blog/2.jpg" alt="" />
+                    {/* <img src="/img/mobile-app/blog/2.jpg" alt="" /> */}
                   </div>
                 </div>
                 <div className="col-md-7 valign">
