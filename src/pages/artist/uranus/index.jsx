@@ -2,7 +2,6 @@ import React from "react";
 import DarkTheme from "../../../layouts/Dark";
 import NavbarFullMenu from "../../../components/Navbar-full-menu/navbar.full-menu";
 import Footer from "../../../components/Footer/footer";
-import WorksHeader from "../../../components/Works-header/works-header";
 import WorksStyleUranus from "../../../components/Works-style2/works-style-uranus";
 
 const WorksDarkUranus = () => {
@@ -17,7 +16,6 @@ const WorksDarkUranus = () => {
 			</div>
 		</div>
 		<NavbarFullMenu />
-		<WorksHeader />
 		<div className="main-content">
 			<WorksStyleUranus grid={3} filterPosition="center" />
 			<Footer />
