@@ -94,7 +94,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
+                    {/* <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -121,7 +121,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
+                    {/* <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -148,7 +148,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
+                    {/* <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -175,7 +175,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
+                    {/* <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -202,7 +202,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/project-details2/project-details2-dark`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" />
+                    {/* <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
