@@ -71,8 +71,8 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
             >
               <div className="item-img">
                 <a className="imago wow" href="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2600947993459876/?type=3&source=42" target="_blank"> 
-                  {/* <image src={UraPic} width={500} height={500}/> */}
-                  <img src="/img/portfolio/portfolio/2/2.jpg" alt="image" />
+                  {/* <image src="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2628457457375596/?type=3&source=42" alt="uranus pic1" width={500} height={500}/> */}
+                  <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -98,7 +98,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/%EB%AF%B8%EB%9E%98%EA%B0%80-single/1520967534" target="_blank">
                   {/* <image src={UraPicAlbum} width={500} height={500}/> */}
-                  <img src="/img/portfolio/portfolio/2/3.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -124,7 +124,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/yummy-feat-mekh-zakhq-single/1579641586" target="_blank">
                   {/* <image src={UraPicAlbum} width={500} height={500}/> */}
-                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -150,7 +150,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/let-me-be-single/1520966850" target="_blank">
                   {/* <image src={UraPicAlbum} width={500} height={500}/> */}
-                  <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -176,7 +176,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <a className="imago wow" href="https://music.apple.com/us/album/let-me-be-single/1520966850" target="_blank">
                   {/* <image src={UraPicAlbum} width={500} height={500}/> */}
-                  <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
@@ -202,7 +202,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <a className="imago wow" href="https://m.facebook.com/Uranus.bbb/photos/pb.100044153303449.-2207520000../2235742116647134/?type=3&source=42" target="_blank">
                   {/* <image src={UraPic} width={500} height={500}/> */}
-                  <img src="/img/portfolio/portfolio/2/album4.jpg" alt="image" />
+                  <img src="/img/portfolio/portfolio/2/album5.jpg" alt="image" />
                   <div className="item-img-overlay"></div>
                 </a>
               </div>
