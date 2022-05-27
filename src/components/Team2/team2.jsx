@@ -19,7 +19,7 @@ const Team2 = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-6">
-            <Link href="/artist">
+            <Link href="/about/artist">
             <div className="item cir md-mb50">
               <div className="img">
                 <img src="/img/team/3-1.jpg" alt="" />
@@ -61,7 +61,7 @@ const Team2 = () => {
             </Link>
           </div>
           <div className="col-lg-6 col-md-6">
-            <Link href="/artist/uranus/">
+            <Link href="/about/artist">
             <div className="item cir md-mb50">
               <div className="img">
                 <img src="/img/team/2.jpg" alt="" />
@@ -88,7 +88,7 @@ const Team2 = () => {
                       <use xlinkHref="#circlePath2" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath2">
-                          Uranus Uranus Uranus Uranus Uranus
+                          Uranus Uranus Uranus Uranus Uranus 
                         </textPath>
                       </text>
                     </g>

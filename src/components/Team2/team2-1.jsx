@@ -20,7 +20,7 @@ const Team2 = () => {
         <div className="row">
           <div className="col-lg-6 col-md-6">
             <Link
-              href={'/artist/maniac'}
+              href={'/about/artist/maniac'}
             >
               <div className="item cir md-mb50">
                 <div className="img">
@@ -48,7 +48,7 @@ const Team2 = () => {
                         <use xlinkHref="#circlePath1" fill="none" />
                         <text fill="#fff">
                           <textPath xlinkHref="#circlePath1">
-                            Maniac Maniac Maniac Maniac Maniac
+                            Maniac Maniac Maniac
                           </textPath>
                         </text>
                       </g>
@@ -64,7 +64,7 @@ const Team2 = () => {
           </div>
           <div className="col-lg-6 col-md-6">
             <Link
-              href={'/artist/uranus'}
+              href={'/about/artist/uranus'}
             >
               <div className="item cir md-mb50">
                 <div className="img">
@@ -92,7 +92,7 @@ const Team2 = () => {
                         <use xlinkHref="#circlePath2" fill="none" />
                         <text fill="#fff">
                           <textPath xlinkHref="#circlePath2">
-                            Uranus Uranus Uranus Uranus Uranus
+                            Uranus Uranus Uranus
                           </textPath>
                         </text>
                       </g>

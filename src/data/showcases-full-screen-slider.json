@@ -8,7 +8,7 @@
     {
       "id": 2,
       "title": { "first": "Artist", "second": "Maniac" },
-      "image": "/img/portfolio/full/3-5.jpg",
+      "image": "/img/portfolio/full/3-9.jpg",
       "sub": "Design"
     },
     {
@@ -19,12 +19,6 @@
     },
     {
       "id": 4,
-      "title": { "first": "Schedule", "second": "" },
-      "image": "/img/portfolio/full/4-2.jpg",
-      "sub": "Design"
-    },
-    {
-      "id": 5,
       "title": { "first": "Shop", "second": "Coming soon" },
       "image": "/img/portfolio/full/5.jpg",
       "sub": "Design"

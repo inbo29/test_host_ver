@@ -1,8 +1,8 @@
 import React from "react";
-import DarkTheme from "../../../layouts/Dark";
-import NavbarFullMenu from "../../../components/Navbar-full-menu/navbar.full-menu";
-import Footer from "../../../components/Footer/footer";
-import WorksStyle2 from "../../../components/Works-style2/works-style2";
+import DarkTheme from "../../../../layouts/Dark";
+import NavbarFullMenu from "../../../../components/Navbar-full-menu/navbar.full-menu";
+import Footer from "../../../../components/Footer/footer";
+import WorksStyle2 from "../../../../components/Works-style2/works-style2";
 
 const WorksDark = () => {
 	return (
