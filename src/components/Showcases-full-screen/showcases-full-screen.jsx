@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { useSpring, animated } from 'react-spring'
 import { Swiper, SwiperSlide } from "swiper/react";
 import ShowcassesFullScreenData from "../../data/showcases-full-screen-slider.json";
 import SwiperCore, {
@@ -19,6 +20,19 @@ SwiperCore.use([Navigation, Pagination, Parallax, Mousewheel]);
 
 const ShowcasesFullScreen = () => {
   const [load, setLoad] = React.useState(true);
+
+
+  const styles = useSpring({
+    // loop: true,
+    // config: {duration: 200},
+    delay: 2000,
+    to: [
+    { opacity: 1, color: '#b1b1b1' },
+    { opacity: 2, color: '#ffffff' },
+    ],
+    from: { opacity: 0, color: 'black' },
+  });
+  
   React.useEffect(() => {
     removeSlashFromPagination()
     setTimeout(() => {
@@ -92,15 +106,18 @@ const ShowcasesFullScreen = () => {
                               href={`/`}
                             >
                               <a>
-                                <div
-                                  className="stroke"
+                                <animated.div
+                                  className="stroke" style={styles}
                                   data-swiper-parallax="-2000"
                                 >
                                   {slide.title.first}
-                                </div>
-                                <span data-swiper-parallax="-5000">
+                                </animated.div>
+                                <animated.span 
+                                  data-swiper-parallax="-5000"
+                                  style={styles} 
+                                >
                                   {slide.title.second}
-                                </span>
+                                </animated.span>
                               </a>
                             </Link>
                             <div className="bord"></div>

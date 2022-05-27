@@ -101,3 +101,22 @@ body.hideX .pace {
     // 0 0 100px #0ff,
     // 0 0 150px #0ff;
 }
+
+@-webkit-keyframes logo-animate {
+  0%   { opacity: 1; }
+  25%   { opacity: 0.1; }
+  50%   { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+.first-title {
+  -webkit-animation: logo-animate 1s infinite;
+  animation:         logo-animate 2s infinite;
+  animation-delay: 5s;
+}
+
+.second-title {
+  -webkit-animation: logo-animate 1s infinite;
+  animation:         logo-animate 2s infinite;
+  animation-delay: 4s;
+}
