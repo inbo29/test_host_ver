@@ -23,8 +23,6 @@ const ShowcasesFullScreen = () => {
 
 
   const styles = useSpring({
-    // loop: true,
-    // config: {duration: 200},
     delay: 2000,
     to: [
     { opacity: 1, color: '#b1b1b1' },
