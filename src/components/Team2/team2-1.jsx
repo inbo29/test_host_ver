@@ -48,7 +48,7 @@ const Team2 = () => {
                         <use xlinkHref="#circlePath1" fill="none" />
                         <text fill="#fff">
                           <textPath xlinkHref="#circlePath1">
-                            Maniac Maniac Maniac
+                            Maniac Maniac Maniac Maniac
                           </textPath>
                         </text>
                       </g>
@@ -59,17 +59,30 @@ const Team2 = () => {
                     <span>Rapper</span>
                   </div>
                 </div>
+                <div className="item m-3">
+                  <div className="social text-center">
+                    <a href="#0">
+                      <i className="fab fa-facebook-f mx-2"></i>
+                    </a>
+                    <a href="#0">
+                      <i className="fab fa-instagram mx-2"></i>
+                    </a>
+                    <a href="#0">
+                      <i className="fab fa-twitter mx-2"></i>
+                    </a>
+                  </div>
+                </div>
               </div>
             </Link>
           </div>
           <div className="col-lg-6 col-md-6">
-            <Link
+          <Link
               href={'/about/artist/uranus'}
             >
               <div className="item cir md-mb50">
                 <div className="img">
                   <img src="/img/team/2.jpg" alt="" />
-                  <div id="circle2">
+                  <div id="circle1">
                     <svg
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
@@ -83,16 +96,16 @@ const Team2 = () => {
                     >
                       <defs>
                         <path
-                          id="circlePath2"
+                          id="circlePath1"
                           d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
                         />
                       </defs>
                       <circle cx="150" cy="100" r="75" fill="none" />
                       <g>
-                        <use xlinkHref="#circlePath2" fill="none" />
+                        <use xlinkHref="#circlePath1" fill="none" />
                         <text fill="#fff">
-                          <textPath xlinkHref="#circlePath2">
-                            Uranus Uranus Uranus
+                          <textPath xlinkHref="#circlePath1">
+                            Uranus Uranus Uranus Uranus
                           </textPath>
                         </text>
                       </g>
@@ -101,6 +114,19 @@ const Team2 = () => {
                   <div className="info">
                     <h6>Uranus</h6>
                     <span>Singer</span>
+                  </div>
+                </div>
+                <div className="item m-3">
+                  <div className="social text-center">
+                    <a href="#0">
+                      <i className="fab fa-facebook-f mx-2"></i>
+                    </a>
+                    <a href="#0">
+                      <i className="fab fa-instagram mx-2"></i>
+                    </a>
+                    <a href="#0">
+                      <i className="fab fa-youtube mx-2"></i>
+                    </a>
                   </div>
                 </div>
               </div>

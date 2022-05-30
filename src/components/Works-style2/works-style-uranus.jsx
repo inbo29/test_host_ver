@@ -67,7 +67,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/artist/uranus`}>
+                <Link href={`/about/artist/uranus`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -87,7 +87,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/artist/uranus`}>
+                <Link href={`/about/artist/uranus`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
@@ -107,7 +107,7 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/artist/uranus`}>
+                <Link href={`/about/artist/uranus`}>
                   <a className="imago wow">
                     <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
                     <div className="item-img-overlay"></div>
