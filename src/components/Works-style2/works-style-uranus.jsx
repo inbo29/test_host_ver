@@ -73,36 +73,14 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items brand wow fadeInUp`}
+              } items web wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/about/artist/uranus`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/about/artist/uranus`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow" href="https://music.apple.com/us/album/white/1559694309?i=1559694312" target="_blank" rel="noopener noreferrer">
+                  <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
 
@@ -117,12 +95,28 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <Link href={`/about/artist/uranus`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
+                <a className="imago wow" href="https://music.apple.com/us/album/yummy-feat-mekh-zakhq/1579641586?i=1579641600" target="_blank" rel="noopener noreferrer">
+                  <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items web wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <a className="imago wow" href="https://music.apple.com/us/album/%EB%AF%B8%EB%9E%98%EA%B0%80/1520967534?i=1520967535" target="_blank" rel="noopener noreferrer">
+                  <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" />
+                  <div className="item-img-overlay"></div>
+                </a>
               </div>
             </div>
 
