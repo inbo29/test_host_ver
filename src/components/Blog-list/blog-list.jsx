@@ -26,8 +26,8 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <Link href="/news">
-                              <a className="date">
+                            <Link href={blogItem.link} passHref>
+                              <a className="date" target="_blank" rel="noopener noreferrer">
                                 <span>
                                   <i>{blogItem.date.day}</i>
                                   {blogItem.date.month}
