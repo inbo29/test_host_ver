@@ -59,15 +59,6 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/news`}>
-                        <a className="link">
-                          <span className="nm">02.</span>News
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="o-hidden">
                       <span className="link dmenu">
                         <span className="nm">03.</span>Artist
                         <i className="fas fa-angle-right"></i>
@@ -101,6 +92,24 @@ const NavbarFullMenu = ({ theme }) => {
                           </div>
                         </li>
                       </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="o-hidden">
+                      <Link href={`/news`}>
+                        <a className="link">
+                          <span className="nm">03.</span>News
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="o-hidden">
+                      <Link href={`/`}>
+                        <a className="link">
+                          <span className="nm">04.</span>Shop
+                        </a>
+                      </Link>
                     </div>
                   </li>
                   <li>

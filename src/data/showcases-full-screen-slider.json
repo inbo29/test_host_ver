@@ -17,12 +17,19 @@
       "id": 3,
       "title": { "first": "Artist", "second": "Uranus", "three": "About", "four": "Uranus" },
       "link" : "/about/artist/uranus",
-      "image": "/img/portfolio/full/2-1.jpg",
+      "image": "/img/portfolio/full/3-10b.jpg",
       "sub": "Design"
     },
     {
       "id": 4,
-      "title": { "first": "Shop", "second": "Coming soon", "three": "", "four": "" },
+      "title": { "first": "News", "second": "", "three": "Read", "four": "more" },
+      "link" : "/news",
+      "image": "",
+      "sub": "Design"
+    },
+    {
+      "id": 5,
+      "title": { "first": "Shop", "second": "", "three": "Coming", "four": "soon" },
       "link" : "",
       "image": "/img/portfolio/full/5.jpg",
       "sub": "Design"

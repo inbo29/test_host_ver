@@ -26,8 +26,20 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
                   Maniac
                 </h6>
+                <a href="https://www.facebook.com/maniac1shot" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-facebook-f mx-2"></i>
+                </a>
+                
+                <a href="https://www.instagram.com/maniac1shot/" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-instagram mx-2"></i>
+                </a>
+                <a href="https://www.youtube.com/user/maniac1shot" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-youtube mx-2"></i>
+                </a>
+                <a href="https://twitter.com/maniac1shot" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-twitter mx-2"></i>
+                </a>
               </div>
-              
             </div>
           </div>
         </div>

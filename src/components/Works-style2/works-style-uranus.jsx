@@ -26,6 +26,16 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
                   Uranus
                 </h6>
+                <a href="https://www.facebook.com/Uranus.bbb" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-facebook-f mx-2"></i>
+                </a>
+                
+                <a href="https://www.instagram.com/uranusuya/" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-instagram mx-2"></i>
+                </a>
+                <a href="https://www.youtube.com/c/Uyanga/featured?app=desktop&disable_polymer=true&itct=CBoQ8JMBGAAiEwiS_uGC79DvAhXJkXwKHZYDAsk%3D" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-youtube mx-2"></i>
+                </a>
               </div>
             </div>
           </div>

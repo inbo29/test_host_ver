@@ -44,17 +44,25 @@ const Team2 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath1" fill="none" />
-                      <text fill="#fff">
+                      {/* <text fill="#fff">
                         <textPath xlinkHref="#circlePath1">
                           Maniac Maniac Maniac Maniac Maniac
                         </textPath>
-                      </text>
+                      </text> */}
                     </g>
                   </svg>
                 </div>
                 <div className="info">
                   <h6>Maniac</h6>
                   <span>Rapper</span>
+                </div>
+              </div>
+              <div className="item m-3">
+                <div className="text-center">
+                  <a>
+                    <h3>Maniac</h3>
+                    <p>Legend of Underground Hip Hop</p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -86,17 +94,25 @@ const Team2 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath2" fill="none" />
-                      <text fill="#fff">
+                      {/* <text fill="#fff">
                         <textPath xlinkHref="#circlePath2">
                           Uranus Uranus Uranus Uranus Uranus 
                         </textPath>
-                      </text>
+                      </text> */}
                     </g>
                   </svg>
                 </div>
                 <div className="info">
                   <h6>Uranus</h6>
                   <span>Singer</span>
+                </div>
+              </div>
+              <div className="item m-3">
+                <div className="text-center">
+                  <a>
+                    <h3>Uranus</h3>
+                    <p>Musician from mongolia</p>
+                  </a>
                 </div>
               </div>
             </div>

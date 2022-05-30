@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "link": {"fblink": "https://m.mbn.co.kr/tv/792/5114/1063139", "youlink": "Entertainment", "twilink": "About", "inslink": "Us"}
+    },
+    {
+		"id": 2,
+		"link": { "fblink": "https://m.facebook.com/Uranus.bbb?_rdr", "youlink": "https://www.youtube.com/c/Uyanga/featured?app=desktop&disable_polymer=true&itct=CBoQ8JMBGAAiEwiS_uGC79DvAhXJkXwKHZYDAsk%3D", "twilink": "About", "inslink": "https://www.instagram.com/uranusuya/?igshid=1aa14xv6wpy08"}
+    }
+]

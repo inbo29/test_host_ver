@@ -47,9 +47,9 @@ const Team2 = () => {
                       <g>
                         <use xlinkHref="#circlePath1" fill="none" />
                         <text fill="#fff">
-                          <textPath xlinkHref="#circlePath1">
+                          {/* <textPath xlinkHref="#circlePath1">
                             Maniac Maniac Maniac Maniac
-                          </textPath>
+                          </textPath> */}
                         </text>
                       </g>
                     </svg>
@@ -60,6 +60,14 @@ const Team2 = () => {
                   </div>
                 </div>
                 <div className="item m-3">
+                  <div className="text-center">
+                    <a>
+                      <h3>Maniac</h3>
+                      <p>Legend of Underground Hip Hop</p>
+                    </a>
+                  </div>
+                </div>
+                {/* <div className="item m-3">
                   <div className="social text-center">
                     <a href="#0">
                       <i className="fab fa-facebook-f mx-2"></i>
@@ -71,7 +79,7 @@ const Team2 = () => {
                       <i className="fab fa-twitter mx-2"></i>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Link>
           </div>
@@ -104,9 +112,9 @@ const Team2 = () => {
                       <g>
                         <use xlinkHref="#circlePath1" fill="none" />
                         <text fill="#fff">
-                          <textPath xlinkHref="#circlePath1">
+                          {/* <textPath xlinkHref="#circlePath1">
                             Uranus Uranus Uranus Uranus
-                          </textPath>
+                          </textPath> */}
                         </text>
                       </g>
                     </svg>
@@ -117,6 +125,14 @@ const Team2 = () => {
                   </div>
                 </div>
                 <div className="item m-3">
+                  <div className="text-center">
+                    <a>
+                      <h3>Uranus</h3>
+                      <p>Musician from mongolia</p>
+                    </a>
+                  </div>
+                </div>
+                {/* <div className="item m-3">
                   <div className="social text-center">
                     <a href="#0">
                       <i className="fab fa-facebook-f mx-2"></i>
@@ -128,7 +144,7 @@ const Team2 = () => {
                       <i className="fab fa-youtube mx-2"></i>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Link>
           </div>

@@ -3,6 +3,7 @@ import DarkTheme from "../../../../layouts/Dark";
 import NavbarFullMenu from "../../../../components/Navbar-full-menu/navbar.full-menu";
 import Footer from "../../../../components/Footer/footer";
 import WorksStyle2 from "../../../../components/Works-style2/works-style2";
+// import SocialManiac from "../../../../data/social.json;
 
 const WorksDark = () => {
 	return (
@@ -15,7 +16,7 @@ const WorksDark = () => {
 		</div>
 		<NavbarFullMenu />
 		<div className="main-content">
-			<WorksStyle2 grid={3} filterPosition="center" />
+			<WorksStyle2 grid={3} filterPosition="center"/>
 			<Footer />
 		</div>
 		</DarkTheme>
