@@ -36,7 +36,7 @@ const BlogList = ({ blogs }) => {
                             </Link>
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <Link key={index} href="/news">
+                              <Link key={index} href="/news" replace>
                                 <a className="tag">
                                   <span>{tag}</span>
                                 </a>

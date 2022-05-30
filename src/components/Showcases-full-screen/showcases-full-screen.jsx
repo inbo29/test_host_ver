@@ -15,6 +15,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/mousewheel";
 import removeSlashFromPagination from "../../common/removeSlashpagination";
+import { slidesOnLeft } from "react-slick/lib/utils/innerSliderUtils";
 
 SwiperCore.use([Navigation, Pagination, Parallax, Mousewheel]);
 
@@ -101,7 +102,7 @@ const ShowcasesFullScreen = () => {
                         <div className="caption">
                           <h1>
                             <Link
-                              href={`/`}
+                              href={slide.link}
                             >
                               <a>
                                 <animated.div
@@ -122,11 +123,11 @@ const ShowcasesFullScreen = () => {
                           </h1>
                           <div className="discover">
                             <Link
-                              href={`/about`}
+                              href={slide.link}
                             >
                               <a>
                                 <span>
-                                  About <br /> Us
+                                  {slide.title.three} <br /> {slide.title.four}
                                 </span>
                               </a>
                             </Link>
