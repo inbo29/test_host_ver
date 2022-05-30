@@ -44,16 +44,20 @@ const BlogList = ({ blogs }) => {
                             ))}
                           </div>
                           <h5>
-                            <Link href="/news">
-                              <a>{blogItem.title}</a>
+                            <Link href={blogItem.link} passHref>
+                              <a target="_blank" rel="noopener noreferrer">
+                                {blogItem.title}
+                              </a>
                             </Link>
                           </h5>
                           <p className="mt-10">
                             {blogItem.content.substr(0, 146) + '...'}
                           </p>
                           <div className="btn-more mt-30">
-                            <Link href="/news">
-                              <a className="simple-btn">Read More</a>
+                            <Link href={blogItem.link} passHref>
+                              <a className="simple-btn" target="_blank" rel="noopener noreferrer">
+                                Read More
+                              </a>
                             </Link>
                           </div>
                         </div>
