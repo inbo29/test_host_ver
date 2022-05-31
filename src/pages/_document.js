@@ -34,7 +34,7 @@ class MyDocument extends Document {
           />
         </Head>
 
-        <body>
+        <body className="notranslate">
           <Main />
           <NextScript />
         </body>
