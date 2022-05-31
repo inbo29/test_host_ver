@@ -42,7 +42,7 @@ const NavbarFullMenu = ({ theme }) => {
         </div>
       </div>
 
-      <div className="hamenu">
+      <div className="hamenu notranslate">
         <div className="container">
           <div className="row">
             <div className="col-lg-9 col-md-8">
@@ -60,6 +60,7 @@ const NavbarFullMenu = ({ theme }) => {
                   <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
+                        
                         <span className="nm">03.</span>Artist
                         <i className="fas fa-angle-right"></i>
                       </span>
