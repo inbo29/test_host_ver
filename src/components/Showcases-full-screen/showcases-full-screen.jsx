@@ -105,18 +105,21 @@ const ShowcasesFullScreen = () => {
                               href={slide.link}
                             >
                               <a>
-                                <animated.div
-                                  className="stroke" style={styles}
+                                <div
+                                  className="stroke" 
                                   data-swiper-parallax="-2000"
                                 >
-                                  {slide.title.first}
-                                </animated.div>
-                                <animated.span 
+                                  <animated.svg height="50" width="400" style={styles}>
+                                    <text x="0" y="40" fill="white">{slide.title.first}</text>
+                                  </animated.svg>
+                                </div>
+                                <span 
                                   data-swiper-parallax="-5000"
-                                  style={styles} 
                                 >
-                                  {slide.title.second}
-                                </animated.span>
+                                  <animated.svg height="50" width="400" style={styles}>
+                                    <text x="0" y="40" fill="white">{slide.title.second}</text>
+                                  </animated.svg>
+                                </span>
                               </a>
                             </Link>
                             <div className="bord"></div>

@@ -8,14 +8,14 @@
     },
     {
       "id": 2,
-      "title": { "first": "Artist", "second": "Maniac", "three": "About", "four": "Maniac" },
+      "title": { "first": "Artist", "second": "Maniac", "three": "Artist", "four": "info" },
       "link" : "/about/artist/maniac",
       "image": "/img/portfolio/full/3-9.jpg",
       "sub": "Design"
     },
     {
       "id": 3,
-      "title": { "first": "Artist", "second": "Uranus", "three": "About", "four": "Uranus" },
+      "title": { "first": "Artist", "second": "Uranus", "three": "Artist", "four": "info" },
       "link" : "/about/artist/uranus",
       "image": "/img/portfolio/full/3-10b.jpg",
       "sub": "Design"
