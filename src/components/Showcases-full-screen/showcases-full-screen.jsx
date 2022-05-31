@@ -144,7 +144,7 @@ const ShowcasesFullScreen = () => {
         ) : null}
       </div>
 
-      <div className="txt-botm notranslate">
+      <div className="txt-botm">
         <div
           ref={navigationNextRef}
           className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"

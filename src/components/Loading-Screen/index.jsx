@@ -19,7 +19,7 @@ const LoadingScreen = () => {
   return (
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
-        <div className="loading notranslate">
+        <div className="loading">
           <span>L</span>
           <span>o</span>
           <span>a</span>
