@@ -36,7 +36,7 @@ const NavbarFullMenu = ({ theme }) => {
               <i></i>
             </span>
             <span className="text" data-splitting>
-              <span className="menu-text word">Menu</span>
+              <span className="menu-text word notranslate">Menu</span>
             </span>
           </div>
         </div>

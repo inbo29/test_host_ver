@@ -90,7 +90,7 @@ const ShowcasesFullScreen = () => {
             slidesPerView={1}
           >
             {ShowcassesFullScreenData.map((slide) => (
-              <SwiperSlide key={slide.id} className="swiper-slide">
+              <SwiperSlide key={slide.id} className="swiper-slide notranslate">
                 <div
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
@@ -105,21 +105,19 @@ const ShowcasesFullScreen = () => {
                               href={slide.link}
                             >
                               <a>
-                                <div
+                                <animated.div
                                   className="stroke" 
                                   data-swiper-parallax="-2000"
+                                  style={styles}
                                 >
-                                  <animated.svg height="100%" width="1000" style={styles}>
-                                    <text x="0" y="130" fill="white">{slide.title.first}</text>
-                                  </animated.svg>
-                                </div>
-                                <span 
+                                  {slide.title.first}
+                                </animated.div>
+                                <animated.span 
                                   data-swiper-parallax="-5000"
+                                  style={styles}
                                 >
-                                  <animated.svg height="100%" width="1000" style={styles}>
-                                    <text x="0" y="70" fill="white" >{slide.title.second}</text>
-                                  </animated.svg>
-                                </span>
+                                  {slide.title.second}
+                                </animated.span>
                               </a>
                             </Link>
                             <div className="bord"></div>
@@ -146,7 +144,7 @@ const ShowcasesFullScreen = () => {
         ) : null}
       </div>
 
-      <div className="txt-botm">
+      <div className="txt-botm notranslate">
         <div
           ref={navigationNextRef}
           className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
