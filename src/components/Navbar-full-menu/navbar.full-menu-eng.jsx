@@ -6,7 +6,7 @@ import initFullNavbarMenu from "../../common/initFullNavbarMenu";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
 
-const NavbarFullMenu = ({ theme }) => {
+const NavbarFullMenuEng = ({ theme }) => {
   React.useEffect(() => {
     initFullNavbarMenu()
   }, [])
@@ -80,7 +80,7 @@ const NavbarFullMenu = ({ theme }) => {
                 <ul className="main-menu">
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about`}>
+                      <Link href={`/eng/about`}>
                         <a className="link">
                           <span className="nm">01.</span>About Us
                         </a>
@@ -106,7 +106,7 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/about/artist/maniac`}>
+                            <Link href={`/eng/about/artist/maniac`}>
                               <a className="sub-link">
                                 <span className="nm">01.</span>Maniac
                               </a>
@@ -115,7 +115,7 @@ const NavbarFullMenu = ({ theme }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/about/artist/uranus`}>
+                            <Link href={`/eng/about/artist/uranus`}>
                               <a className="sub-link">
                                 <span className="nm">02.</span>Uranus
                               </a>
@@ -127,7 +127,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/news`}>
+                      <Link href={`/eng/news`}>
                         <a className="link">
                           <span className="nm">03.</span>News
                         </a>
@@ -136,7 +136,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/`}>
+                      <Link href={`/eng`}>
                         <a className="link">
                           <span className="nm">04.</span>Shop
                         </a>
@@ -145,7 +145,7 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/contact`}>
+                      <Link href={`/eng/contact`}>
                         <a className="link">
                           <span className="nm">04.</span>Contact
                         </a>
@@ -187,4 +187,4 @@ const NavbarFullMenu = ({ theme }) => {
   );
 };
 
-export default NavbarFullMenu;
+export default NavbarFullMenuEng;

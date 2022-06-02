@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "사인히어 화제의 참가자 - 오양가",
+        "content": "2019년 사인히어 몽골인 참가자 오양가 독특한 음색",
+        "image": "/img/blog/uranus-1.jpg",
+        "tags": ["오라노스(오양가)","가수", "몽골", "아티스트"],
+        "link": "https://m.mbn.co.kr/tv/792/5114/1063139",
+        "date": {
+            "day": "22일",
+            "month": "8월"
+        }
+    },
+    {
+        "id": 2,
+        "title": "정통 힙합",
+        "content": "매니악 : 부산에서 7년 이상 거주해.",
+        "image": "/img/blog/maniac-2.jpg",
+        "tags": ["매니악","래퍼", "업타운", "아티스트"],
+        "link": "https://news.v.daum.net/v/20190823102342127?s=print_news",
+        "date": {
+            "day": "29일",
+            "month": "9월"
+        }
+    }
+]

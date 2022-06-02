@@ -6,7 +6,7 @@ import initFullNavbarMenu from "../../common/initFullNavbarMenu";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
 
-const NavbarFullMenu = ({ theme }) => {
+const NavbarFullMenuKor = ({ theme }) => {
   React.useEffect(() => {
     initFullNavbarMenu()
   }, [])
@@ -38,16 +38,9 @@ const NavbarFullMenu = ({ theme }) => {
               <i></i>
             </span>
             <span className="text" data-splitting>
-              <span className="menu-text word">Menu</span>
+              <span className="menu-text word">메뉴</span>
             </span>
           </div>
-          {/* <div className="submenu mx-2">
-            <select className="text">
-              <option value="1">ENG</option>
-              <option value="2">KOR</option>
-              <span className="menu-text word">hi</span>
-            </select>
-          </div> */}
           <div className="submenu">
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
@@ -57,14 +50,14 @@ const NavbarFullMenu = ({ theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Eng
+                한글
               </span>
               <div className="dropdown-menu">
                 <Link href={`/eng`}>
-                  <a className="dropdown-item">Eng</a>
+                  <a className="dropdown-item">영어</a>
                 </Link>
                 <Link href={`/kor`}>
-                  <a className="dropdown-item">Kor</a>
+                  <a className="dropdown-item">한글</a>
                 </Link>
               </div>
             </li>
@@ -80,9 +73,9 @@ const NavbarFullMenu = ({ theme }) => {
                 <ul className="main-menu">
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/about`}>
+                      <Link href={`/kor/about`}>
                         <a className="link">
-                          <span className="nm">01.</span>About Us
+                          <span className="nm">01.</span>회사소개
                         </a>
                       </Link>
                     </div>
@@ -91,7 +84,7 @@ const NavbarFullMenu = ({ theme }) => {
                     <div className="o-hidden">
                       <span className="link dmenu">
                         
-                        <span className="nm">02.</span>Artist
+                        <span className="nm">02.</span>아티스트
                         <i className="fas fa-angle-right"></i>
                       </span>
                     </div>
@@ -100,24 +93,24 @@ const NavbarFullMenu = ({ theme }) => {
                         <li>
                           <div className="o-hidden">
                             <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
+                              <i className="pe-7s-angle-left"></i> 돌아가기
                             </span>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/about/artist/maniac`}>
+                            <Link href={`/kor/about/artist/maniac`}>
                               <a className="sub-link">
-                                <span className="nm">01.</span>Maniac
+                                <span className="nm">01.</span>매니악
                               </a>
                             </Link>
                           </div>
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href={`/about/artist/uranus`}>
+                            <Link href={`/kor/about/artist/uranus`}>
                               <a className="sub-link">
-                                <span className="nm">02.</span>Uranus
+                                <span className="nm">02.</span>오라노스(오양가)
                               </a>
                             </Link>
                           </div>
@@ -127,25 +120,25 @@ const NavbarFullMenu = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/news`}>
+                      <Link href={`/kor/news`}>
                         <a className="link">
-                          <span className="nm">03.</span>News
+                          <span className="nm">03.</span>뉴스
                         </a>
                       </Link>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/`}>
+                      <Link href={`/kor`}>
                         <a className="link">
-                          <span className="nm">04.</span>Shop
+                          <span className="nm">04.</span>마켓
                         </a>
                       </Link>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href={`/contact`}>
+                      <Link href={`/kor/contact`}>
                         <a className="link">
                           <span className="nm">04.</span>Contact
                         </a>
@@ -158,24 +151,24 @@ const NavbarFullMenu = ({ theme }) => {
             <div className="col-lg-3 col-md-4">
               <div className="cont-info">
                 <div className="item">
-                  <h6>Phone :</h6>
+                  <h6>연락처 :</h6>
                   <p>+82 10 8288 2120</p>
                 </div>
                 <div className="item">
-                  <h6>Address :</h6>
+                  <h6>주소 :</h6>
                   <p>
-                    2nd floor, 12,Arirang-ro, Seoungbuk-gu, Seoul
+                    서울특별시 강남구 테헤란로 140 2층
                   </p>
                 </div>
                 <div className="item">
-                  <h6>Email :</h6>
+                  <h6>이메일 :</h6>
                   <p>
                     <a href="#0">thehowl88@gmail.com</a>
                   </p>
                 </div>
                 <div className="item">
                   <p>
-                    Copyright©  GDACS Holdings Co.,ltd. All rights reversed.
+                    Copyright©  GDACS 홀딩스. All rights reversed.
                   </p>
                 </div>
               </div>
@@ -187,4 +180,4 @@ const NavbarFullMenu = ({ theme }) => {
   );
 };
 
-export default NavbarFullMenu;
+export default NavbarFullMenuKor;

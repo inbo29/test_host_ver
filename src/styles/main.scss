@@ -102,15 +102,25 @@ body.hideX .pace {
     // 0 0 150px #0ff;
 }
 
-.svgtext {
-  font-size: 10rem;
-  @media (min-width: 850px) {
-    font-size: 8rem;
-  }
-  @media (min-width: 750px) {
-    font-size: 3.5rem;
-  }
-  @media (min-width: 450px) {
-    font-size: 2rem;
-  }
+select {
+  background: #121319;
+  color:#fff;
+  border: none;
+}
+
+option {
+  background: #121319;
+  color:#fff;
+  border: none;
+}
+
+.dropdown-item {
+  background: #121319;
+  color: #fff;
+  border: 0px solid none;
+}
+
+.dropdown-menu {
+  padding: 0px;
+
 }

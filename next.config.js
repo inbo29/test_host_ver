@@ -13,8 +13,23 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: false,
   },
-  // withSass(){
-
-  // }
+  // i18n: {
+  //   defaultLocale: "en",
+  //   Locales: ['en', 'ko'],
+  //   domains: [
+	// 		{
+	// 			domain: 'greatreset.io',
+	// 			defaultLocale: 'eng',
+	// 		},
+	// 		{
+	// 			domain: 'greatreset.eng',
+	// 			defaultLocale: 'eng',
+	// 		},
+	// 		{
+	// 			domain: 'greatreset.kor',
+	// 			defaultLocale: 'kor',
+	// 		},
+	// 	]
+  // },
 };
 

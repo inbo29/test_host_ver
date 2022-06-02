@@ -5,6 +5,8 @@ import PagesHeader from "../../components/Pages-header/index";
 import DarkTheme from "../../layouts/Dark";
 import Team2 from "../../components/Team2/team2";
 import Footer from "../../components/Footer/footer";
+import MyCalendar from "../../components/Event-calendar/cuscalnedar";
+import Sample from "../../components/Event-calendar/sample"
 
 
 
@@ -17,6 +19,8 @@ const About = () => {
 		<NavbarFullMenu nr={navbarRef} lr={logoRef} />
 		<PagesHeader />
 		<Team2 />
+		{/* <MyCalendar /> */}
+		{/* <Sample /> */}
 			{/* <CusAboutBlogGrid blogs={blog3Data} /> */}
 		{/* <CalendarGfg /> */}
 		<Footer hideBGCOLOR />

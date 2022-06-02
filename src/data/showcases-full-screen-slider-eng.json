@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": {"first": "GREAT RESET", "second": "Entertainment", "three": "About", "four": "Us"},
+        "link" : "/eng/about",
+        "image": "",
+        "sub": "Design"
+    },
+    {
+      "id": 2,
+      "title": { "first": "Artist", "second": "Maniac", "three": "Artist", "four": "info" },
+      "link" : "/eng/about/artist/maniac",
+      "image": "/img/portfolio/full/3-9.jpg",
+      "sub": "Design"
+    },
+    {
+      "id": 3,
+      "title": { "first": "Artist", "second": "Uranus", "three": "Artist", "four": "info" },
+      "link" : "/eng/about/artist/uranus",
+      "image": "/img/portfolio/full/3-10b.jpg",
+      "sub": "Design"
+    },
+    {
+      "id": 4,
+      "title": { "first": "News", "second": "", "three": "Read", "four": "more" },
+      "link" : "/eng/news",
+      "image": "",
+      "sub": "Design"
+    },
+    {
+      "id": 5,
+      "title": { "first": "Shop", "second": "", "three": "Coming", "four": "soon" },
+      "link" : "",
+      "image": "/eng/img/portfolio/full/5.jpg",
+      "sub": "Design"
+    }
+]
