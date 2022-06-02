@@ -2,7 +2,7 @@ import React from "react";
 import NavbarFullMenuKor from "../../../../../components/Navbar-full-menu/navbar.full-menu-kor";
 import DarkTheme from "../../../../../layouts/Dark";
 import FootKor from "../../../../../components/Footer/footkor";
-import WorksStyleUranus from "../../../../../components/Works-style2/works-style-uranus-kor";
+import WorksStyleUranusKor from "../../../../../components/Works-style2/works-style-uranus-kor";
 
 const WorksDarkUranus = () => {
 	return (
@@ -15,7 +15,7 @@ const WorksDarkUranus = () => {
 		</div>
 		<NavbarFullMenuKor />
 		<div className="main-content">
-			<WorksStyleUranus grid={3} filterPosition="center" />
+			<WorksStyleUranusKor grid={3} filterPosition="center" />
 			<FootKor />
 		</div>
 		</DarkTheme>
