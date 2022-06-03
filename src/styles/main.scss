@@ -118,9 +118,17 @@ option {
   background: #121319;
   color: #fff;
   border: 0px solid none;
+  font-size: 13px;
+  color: #0ff;
+
 }
 
 .dropdown-menu {
   padding: 0px;
+  font-size: 13px;
+}
 
+.nav-item.dropdown {
+  font-size: 13px;
+  color: #0ff;
 }
