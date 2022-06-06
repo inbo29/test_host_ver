@@ -36,6 +36,7 @@ class MyDocument extends Document {
 
         <body className="notranslate">
           <Main />
+          {/* <div id="react-root"></div> */}
           <NextScript />
         </body>
       </Html>

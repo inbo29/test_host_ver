@@ -2,9 +2,9 @@ import React from "react";
 import DarkTheme from "../../../../layouts/Dark";
 import NavbarFullMenu from "../../../../components/Navbar-full-menu/navbar.full-menu";
 import Footer from "../../../../components/Footer/footer";
-import WorksStyle2 from "../../../../components/Works-style2/works-style2";
+import WorksStyleUranus from "../../../../components/Works-style2/works-style-uranus";
 
-const WorksDark = () => {
+const WorksDarkUranus = () => {
 	return (
 		<DarkTheme>
 		<div className="circle-bg">
@@ -15,11 +15,11 @@ const WorksDark = () => {
 		</div>
 		<NavbarFullMenu />
 		<div className="main-content">
-			<WorksStyle2 grid={3} filterPosition="center"/>
+			<WorksStyleUranus grid={3} filterPosition="center" />
 			<Footer />
 		</div>
 		</DarkTheme>
 	);
 };
 
-export default WorksDark;
+export default WorksDarkUranus;
