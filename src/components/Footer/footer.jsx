@@ -44,13 +44,13 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src={appData.lightLogo} alt="" />
               </div>
               <div className="social">
-                <a href="https://www.facebook.com/greatreseten" target="_blank">
+                <a href="https://www.facebook.com/greatreseten" target="_blank" rel="noreferrer">
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 {/* <a href="#0">
                   <i className="fab fa-twitter"></i>
                 </a> */}
-                <a href="https://www.instagram.com/greatreset_/" target="_blank">
+                <a href="https://www.instagram.com/greatreset_/" target="_blank" rel="noreferrer">
                   <i className="fab fa-instagram"></i>
                 </a>
                 {/* <a href="#0">
