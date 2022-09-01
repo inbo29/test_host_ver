@@ -10,28 +10,35 @@
       "id": 2,
       "title": { "first": "Artist", "second": "Maniac", "three": "Artist", "four": "info" },
       "link" : "/eng/about/artist/maniac",
-      "image": "/img/portfolio/full/3-9.jpg",
+      "image": "/img/portfolio/full/Maniac__cover.jpg",
       "sub": "Design"
     },
     {
       "id": 3,
       "title": { "first": "Artist", "second": "Uranus", "three": "Artist", "four": "info" },
       "link" : "/eng/about/artist/uranus",
-      "image": "/img/portfolio/full/3-10b.jpg",
+      "image": "/img/portfolio/full/Uranus_cover.jpg",
       "sub": "Design"
     },
     {
       "id": 4,
-      "title": { "first": "News", "second": "", "three": "Read", "four": "more" },
-      "link" : "/eng/news",
-      "image": "",
+      "title": { "first": "Artist", "second": "Minshik", "three": "Artist", "four": "info" },
+      "link" : "/about/artist/minshik",
+      "image": "/img/portfolio/full/Minshik_cover.jpg",
       "sub": "Design"
     },
     {
       "id": 5,
+      "title": { "first": "News", "second": "", "three": "Read", "four": "more" },
+      "link" : "/news",
+      "image": "",
+      "sub": "Design"
+    },
+    {
+      "id": 6,
       "title": { "first": "Shop", "second": "", "three": "Coming", "four": "soon" },
       "link" : "",
-      "image": "/eng/img/portfolio/full/5.jpg",
+      "image": "/img/portfolio/full/5.jpg",
       "sub": "Design"
     }
 ]

@@ -2,6 +2,14 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
+import Image from 'next/image'
+import ManiacOne from "../../../public/img/portfolio/portfolio/Maniac/1.png"
+import ManiacTwo from "../../../public/img/portfolio/portfolio/Maniac/1-2.png"
+import ManiacThree from "../../../public/img/portfolio/portfolio/Maniac/1-3.png"
+import ManiacFour from "../../../public/img/portfolio/portfolio/Maniac/1-4.png"
+import ManiacFive from "../../../public/img/portfolio/portfolio/Maniac/1-5.png"
+import ManiacSix from "../../../public/img/portfolio/portfolio/Maniac/1-6.png"
+import ManiacSeven from "../../../public/img/portfolio/portfolio/Maniac/1-7.png"
 
 const WorksStyle2Kor = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -69,6 +77,7 @@ const WorksStyle2Kor = ({ grid, hideFilter, filterPosition }) => {
           )}
           
           <div className="gallery full-width">
+
             <div
               className={`${
                 grid === 3
@@ -82,27 +91,11 @@ const WorksStyle2Kor = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/about/artist/maniac`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
-                    <div className="item-img-overlay"></div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web wow fadeInUp`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/about/artist/maniac`}>
-                  <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
+                    <Image
+                      src={ManiacOne}
+                      alt="picture of maniac one"
+                    />
+                    {/* <img src="/img/portfolio/portfolio/1/1-2.png" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -122,7 +115,131 @@ const WorksStyle2Kor = ({ grid, hideFilter, filterPosition }) => {
               <div className="item-img">
                 <Link href={`/about/artist/maniac`}>
                   <a className="imago wow">
-                    <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
+                    <Image
+                      src={ManiacTwo}
+                      alt="picture of maniac two"
+                    />
+                    {/* <img src="/img/portfolio/portfolio/1/1-3.png" alt="image" /> */}
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/maniac`}>
+                  <a className="imago wow">
+                    <Image
+                      src={ManiacThree}
+                      alt="picture of maniac Three"
+                    />
+                    {/* <img src="/img/portfolio/portfolio/1/1-4.png" alt="image" /> */}
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/maniac`}>
+                  <a className="imago wow">
+                    <Image
+                      src={ManiacFour}
+                      alt="picture of maniac four"
+                    />
+                    {/* <img src="/img/portfolio/portfolio/1/1-5.png" alt="image" /> */}
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/maniac`}>
+                  <a className="imago wow">
+                    <Image
+                      src={ManiacFive}
+                      alt="picture of maniac five"
+                    />
+                    {/* <img src="/img/portfolio/portfolio/1/1-6.png" alt="image" /> */}
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/maniac`}>
+                  <a className="imago wow">
+                    <Image
+                      src={ManiacSix}
+                      alt="picture of maniac six"
+                    />
+                    {/* <img src="/img/portfolio/portfolio/1/1-7.png" alt="image" /> */}
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/maniac`}>
+                  <a className="imago wow">
+                    <Image
+                      src={ManiacSeven}
+                      alt="picture of maniac seven"
+                    />
+                    {/* <img src="/img/portfolio/portfolio/1/1-7.png" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>

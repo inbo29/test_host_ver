@@ -115,6 +115,15 @@ const NavbarFullMenuKor = ({ theme }) => {
                             </Link>
                           </div>
                         </li>
+                        <li>
+                          <div className="o-hidden">
+                            <Link href={`/kor/about/artist/minshik`}>
+                              <a className="sub-link">
+                                <span className="nm">03.</span>민식
+                              </a>
+                            </Link>
+                          </div>
+                        </li>
                       </ul>
                     </div>
                   </li>

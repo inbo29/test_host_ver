@@ -2297,7 +2297,7 @@ span:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background-size: cover;
+  background-size: contain;
 }
 
 .slider .parallax-slider .swiper-slide-active .caption h1[data-splitting] {
@@ -3447,9 +3447,20 @@ span:hover {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 1px;
-  background: #fff;
+  /* background: #fff; */
+  /* color: yellow; */
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  /* text-shadow: 1px 1px #ffffff; */
   border: 0;
   opacity: 0.1;
+  background: url(https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif);
+  background-size: contain;
+  background-position: top left;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 .showcase-full .parallax-slider .caption .discover {

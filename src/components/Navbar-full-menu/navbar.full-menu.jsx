@@ -122,6 +122,15 @@ const NavbarFullMenu = ({ theme }) => {
                             </Link>
                           </div>
                         </li>
+                        <li>
+                          <div className="o-hidden">
+                            <Link href={`/about/artist/minshik`}>
+                              <a className="sub-link">
+                                <span className="nm">03.</span>Minshik
+                              </a>
+                            </Link>
+                          </div>
+                        </li>
                       </ul>
                     </div>
                   </li>

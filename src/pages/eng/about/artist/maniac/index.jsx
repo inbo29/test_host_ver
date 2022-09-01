@@ -3,6 +3,8 @@ import DarkTheme from "../../../../../layouts/Dark";
 import NavbarFullMenuEng from "../../../../../components/Navbar-full-menu/navbar.full-menu-eng";
 import Footer from "../../../../../components/Footer/footer";
 import WorksStyle2 from "../../../../../components/Works-style2/works-style2";
+import WorksStyleOriginal from "../../../../../components/Works-style2/works-style-original";
+import WorksStyleManiac from "../../../../../components/Works-style1/works-style-maniac"
 
 const WorksDark = () => {
 	return (
@@ -16,6 +18,8 @@ const WorksDark = () => {
 		<NavbarFullMenuEng />
 		<div className="main-content">
 			<WorksStyle2 grid={3} filterPosition="center"/>
+			{/* <WorksStyleOriginal grid={3} filterPosition="center"/> */}
+			{/* <WorksStyleManiac /> */}
 			<Footer />
 		</div>
 		</DarkTheme>

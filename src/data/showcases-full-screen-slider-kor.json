@@ -10,25 +10,32 @@
       "id": 2,
       "title": { "first": "아티스트", "second": "매니악", "three": "아티스트", "four": "정보" },
       "link" : "/kor/about/artist/maniac",
-      "image": "/img/portfolio/full/3-9.jpg",
+      "image": "/img/portfolio/full/Maniac__cover.jpg",
       "sub": "Design"
     },
     {
       "id": 3,
       "title": { "first": "아티스트", "second": "오라노스(오양가)", "three": "아티스트", "four": "정보" },
       "link" : "/kor/about/artist/uranus",
-      "image": "/img/portfolio/full/3-10b.jpg",
+      "image": "/img/portfolio/full/Uranus_cover.jpg",
       "sub": "Design"
     },
     {
       "id": 4,
+      "title": { "first": "아티스트", "second": "민식", "three": "아티스트", "four": "정보" },
+      "link" : "/kor/about/artist/minshik",
+      "image": "/img/portfolio/full/Minshik_cover.jpg",
+      "sub": "Design"
+    },
+    {
+      "id": 5,
       "title": { "first": "뉴스", "second": "", "three": "더보기", "four": "" },
       "link" : "/kor/news",
       "image": "",
       "sub": "Design"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": { "first": "마켓", "second": "", "three": "Coming", "four": "soon" },
       "link" : "",
       "image": "/img/portfolio/full/5.jpg",
