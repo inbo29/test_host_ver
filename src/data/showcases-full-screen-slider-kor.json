@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "title": { "first": "아티스트", "second": "매니악", "three": "아티스트", "four": "정보" },
+      "title": { "first": "아티스트", "second": "MAN1AC", "three": "아티스트", "four": "정보" },
       "link" : "/kor/about/artist/maniac",
       "image": "/img/portfolio/full/Maniac__cover.jpg",
       "sub": "Design"

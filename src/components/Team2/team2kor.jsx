@@ -56,14 +56,14 @@ const Team2Kor = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>매니악</h6>
+                  <h6>MAN1AC</h6>
                   <span>래퍼</span>
                 </div>
               </div>
               <div className="item m-3">
                 <div className="text-center">
                   <a>
-                    <h3>매니악</h3>
+                    <h3>MAN1AC</h3>
                     <p>레전드 of 언더그라운드 힙합</p>
                   </a>
                 </div>

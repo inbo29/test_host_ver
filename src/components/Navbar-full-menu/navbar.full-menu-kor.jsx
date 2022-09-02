@@ -101,7 +101,7 @@ const NavbarFullMenuKor = ({ theme }) => {
                           <div className="o-hidden">
                             <Link href={`/kor/about/artist/maniac`}>
                               <a className="sub-link">
-                                <span className="nm">01.</span>매니악
+                                <span className="nm">01.</span>MAN1AC
                               </a>
                             </Link>
                           </div>

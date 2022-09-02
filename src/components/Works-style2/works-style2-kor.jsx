@@ -32,7 +32,7 @@ const WorksStyle2Kor = ({ grid, hideFilter, filterPosition }) => {
                   아티스트
                 </h3>
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
-                  매니악
+                  MAN1AC
                 </h6>
                 <a href="https://www.facebook.com/maniac1shot" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-facebook-f mx-2"></i>
