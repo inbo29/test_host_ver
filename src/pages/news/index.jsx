@@ -5,7 +5,7 @@ import NavbarFullMenu from "../../components/Navbar-full-menu/navbar.full-menu";
 import BlogList from "../../components/Blog-list/blog-list";
 import PageHeader from "../../components/Page-header/page-header";
 import Footer from "../../components/Footer/footer";
-import WorksStyleManiac from "../../components/Works-style1/works-style-maniac"
+// import WorksStyleManiac from "../../components/Works-style1/works-style-maniac"
 
 const BlogGridDark = () => {
 	const navbarRef = React.useRef(null);
@@ -25,7 +25,7 @@ const BlogGridDark = () => {
 			title="News"
 		/>
 		<BlogList blogs={blog2Data} />
-		<WorksStyleManiac />
+		{/* <WorksStyleManiac /> */}
         <Footer hideBGCOLOR />
 		</DarkTheme>
 	);

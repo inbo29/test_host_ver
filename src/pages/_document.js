@@ -19,10 +19,30 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="GRE - GREAT RESET Entertainment"
+            content="G.R.E - GREAT RESET Entertainment"
           />
-          <meta name="author" content="" />
+          <meta name="robots" content="index, follow"/>
+          <meta name="title" content="G.R.E - Entertainment"/>
+          
+          <meta name="author" content="GREAT RESET Entertainment" />
+          <meta name="keywords" content="G.R.E - Entertainment,great,great reset entertainment, great reset, GRE, g r e, gre, G R E,그레이트리셋엔터테이먼트,그레이트,리셋,그레이트리셋, 그레이트 리셋, Maniac, uranus, minshik, 매니악, 오라노스, 오양가, uyanga, 민식, 사인히어"/>
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="G.R.E - Entertainment" />
+          <meta property="og:description" content="G.R.E - Entertainment" />
+          <meta property="og:site_name" content="GREAT RESET ENTERTAINMENT"/>
+          <meta property="og:image" content="https://i.ibb.co/x20mCTN/logo-great-light-png.png"/>
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="G.R.E - Entertainment" />
+          <meta name="twitter:description" content="G.R.E - Entertainment" />
+          <meta property="twitter:image" content="https://i.ibb.co/x20mCTN/logo-great-light-png.png"/>
+          <meta name="twitter:image:width" content="1024" />
+          <meta name="twitter:image:height" content="512" />
+
           <meta name="google" content="notranslate"/>
+          <link rel="canonical" href="https://www.greatreset.io/"/>
+
           <link rel="shortcut icon" href="/img/favicon2.ico" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -32,6 +52,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           />
+
         </Head>
 
         <body className="notranslate">
