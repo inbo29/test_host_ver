@@ -32,7 +32,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                   Artist
                 </h3>
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
-                  Maniac
+                  MAN1AC
                 </h6>
                 <a href="https://www.facebook.com/maniac1shot" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-facebook-f mx-2"></i>

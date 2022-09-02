@@ -108,7 +108,7 @@ const NavbarFullMenu = ({ theme }) => {
                           <div className="o-hidden">
                             <Link href={`/about/artist/maniac`}>
                               <a className="sub-link">
-                                <span className="nm">01.</span>Maniac
+                                <span className="nm">01.</span>MAN1AC
                               </a>
                             </Link>
                           </div>

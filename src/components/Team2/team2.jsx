@@ -62,14 +62,14 @@ const Team2 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Maniac</h6>
+                  <h6>MAN1AC</h6>
                   <span>Rapper</span>
                 </div>
               </div>
               <div className="item m-3">
                 <div className="text-center">
                   <a>
-                    <h3>Maniac</h3>
+                    <h3>MAN1AC</h3>
                     <p>Legend of Underground Hip Hop</p>
                   </a>
                 </div>

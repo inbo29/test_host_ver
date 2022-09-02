@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "title": { "first": "Artist", "second": "Maniac", "three": "Artist", "four": "info" },
+      "title": { "first": "Artist", "second": "MAN1AC", "three": "Artist", "four": "info" },
       "link" : "/about/artist/maniac",
       "image": "/img/portfolio/full/Maniac__cover.jpg",
       "sub": "Design"
