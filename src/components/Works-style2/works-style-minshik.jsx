@@ -11,6 +11,7 @@ import MinshikFive from "../../../public/img/portfolio/portfolio/Minshik/3-4.png
 import MinshikSix from "../../../public/img/portfolio/portfolio/Minshik/3-5.png"
 import MinshikSeven from "../../../public/img/portfolio/portfolio/Minshik/3-6.png"
 import MinshikEight from "../../../public/img/portfolio/portfolio/Minshik/3-7.png"
+import MinshikNine from "../../../public/img/portfolio/portfolio/Minshik/3-8.png"
 
 const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -35,9 +36,6 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
                   Minshik
                 </h6>
-                {/* <a href="https://www.facebook.com/maniac1shot" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-facebook-f mx-2"></i>
-                </a> */}
                 
                 <a href="https://www.instagram.com/itsminshik/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-instagram mx-2"></i>
@@ -95,7 +93,6 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                       src={MinshikOne}
                       alt="picture of minshik one"
                     />
-                    {/* <img src="img/portfolio/portfolio/Maniac/1.png" alt="img-1" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -119,7 +116,6 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                       src={MinshikTwo}
                       alt="picture of minshik two"
                     />
-                    {/* <img src="/img/portfolio/portfolio/Maniac/1-2.png" alt="image" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -143,7 +139,6 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                       src={MinshikThree}
                       alt="picture of minshik three"
                     />
-                    {/* <img src="/img/portfolio/portfolio/Maniac/1-3.png" alt="img3" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -167,7 +162,6 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                       src={MinshikFour}
                       alt="picture of minshik Four"
                     />
-                    {/* <img src="/img/portfolio/portfolio/Maniac/1-4.png" alt="img4" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -191,7 +185,6 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                       src={MinshikFive}
                       alt="picture of minshik Five"
                     />
-                    {/* <img src="/img/portfolio/portfolio/Maniac/1-5.png" alt="img5" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -213,15 +206,14 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                   <a className="imago wow">
                     <Image
                       src={MinshikSix}
-                      alt="picture of minshik Six"
+                      alt="picture of minshik six"
                     />
-                    {/* <img src="/img/portfolio/portfolio/Maniac/1-6.png" alt="img6" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
               </div>
             </div>
-
+            
             <div
               className={`${
                 grid === 3
@@ -237,9 +229,8 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                   <a className="imago wow">
                     <Image
                       src={MinshikSeven}
-                      alt="picture of minshik Seven"
+                      alt="picture of minshik seven"
                     />
-                    {/* <img src="/img/portfolio/portfolio/Maniac/1-6.png" alt="img6" /> */}
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>
@@ -263,7 +254,29 @@ const WorksStyleMinshik = ({ grid, hideFilter, filterPosition }) => {
                       src={MinshikEight}
                       alt="picture of minshik eight"
                     />
-                    {/* <img src="/img/portfolio/portfolio/Maniac/1-6.png" alt="img6" /> */}
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/minshik`}>
+                  <a className="imago wow">
+                    <Image
+                      src={MinshikNine}
+                      alt="picture of minshik nine"
+                    />
                     <div className="item-img-overlay"></div>
                   </a>
                 </Link>

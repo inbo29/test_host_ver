@@ -8,6 +8,11 @@ import UranusTwo from "../../../public/img/portfolio/portfolio/Uranus/2-1.png"
 import UranusThree from "../../../public/img/portfolio/portfolio/Uranus/2-2.png"
 import UranusFour from "../../../public/img/portfolio/portfolio/Uranus/2-3.png"
 import UranusFive from "../../../public/img/portfolio/portfolio/Uranus/2-4.png"
+import UranusSix from "../../../public/img/portfolio/portfolio/Uranus/2-5.png"
+import UranusSeven from "../../../public/img/portfolio/portfolio/Uranus/2-7.png"
+import UranusEight from "../../../public/img/portfolio/portfolio/Uranus/2-8.png"
+import UranusNine from "../../../public/img/portfolio/portfolio/Uranus/2-9.png"
+import UranusTen from "../../../public/img/portfolio/portfolio/Uranus/2-10.png"
 
 const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -181,6 +186,121 @@ const WorksStyleUranus = ({ grid, hideFilter, filterPosition }) => {
                     <Image
                       src={UranusFive}
                       alt="picture of uranus Five"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusSix}
+                      alt="picture of uranus Six"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusSeven}
+                      alt="picture of uranus seven"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusEight}
+                      alt="picture of uranus Eight"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusNine}
+                      alt="picture of uranus Nine"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+            <div
+              className={`${
+                grid === 3
+                  ? "col-lg-4 col-md-6"
+                  : grid === 2
+                  ? "col-md-6"
+                  : "col-12"
+              } items brand wow fadeInUp`}
+              data-wow-delay=".4s"
+            >
+              <div className="item-img">
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusTen}
+                      alt="picture of uranus Ten"
                     />
                     <div className="item-img-overlay"></div>
                   </a>
