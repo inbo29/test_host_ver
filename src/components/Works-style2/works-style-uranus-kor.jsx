@@ -4,12 +4,10 @@ import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
 import Image from 'next/image'
 import UranusOne from "../../../public/img/portfolio/portfolio/Uranus/2.png"
-import UranusTwo from "../../../public/img/portfolio/portfolio/Uranus/2-2.jpg"
-import UranusThree from "../../../public/img/portfolio/portfolio/Uranus/2-3.jpg"
-import UranusFour from "../../../public/img/portfolio/portfolio/Uranus/2-4.jpg"
-import UranusFive from "../../../public/img/portfolio/portfolio/Uranus/2-5.jpg"
-// import UranusSix from "../../../public/img/portfolio/portfolio/Uranus/2-6.jpg"
-// import UranusSeven from "../../../public/img/portfolio/portfolio/Uranus/2-7.jpg"
+import UranusTwo from "../../../public/img/portfolio/portfolio/Uranus/2-1.png"
+import UranusThree from "../../../public/img/portfolio/portfolio/Uranus/2-2.png"
+import UranusFour from "../../../public/img/portfolio/portfolio/Uranus/2-3.png"
+import UranusFive from "../../../public/img/portfolio/portfolio/Uranus/2-4.png"
 
 const WorksStyleUranusKor = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -74,6 +72,7 @@ const WorksStyleUranusKor = ({ grid, hideFilter, filterPosition }) => {
           )}
           
           <div className="gallery full-width">
+
             <div
               className={`${
                 grid === 3
@@ -81,18 +80,19 @@ const WorksStyleUranusKor = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items brand wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <a className="imago wow" href="https://music.apple.com/us/album/white/1559694309?i=1559694312" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={UranusOne}
-                    alt="picture of uranus one"
-                  />
-                  {/* <img src="/img/portfolio/portfolio/2/album3.jpg" alt="image" /> */}
-                  <div className="item-img-overlay"></div>
-                </a>
+                <Link href={`/kor/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusOne}
+                      alt="picture of uranus one"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -103,18 +103,19 @@ const WorksStyleUranusKor = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items brand wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <a className="imago wow" href="https://music.apple.com/us/album/yummy-feat-mekh-zakhq/1579641586?i=1579641600" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={UranusTwo}
-                    alt="picture of uranus two"
-                  />
-                  {/* <img src="/img/portfolio/portfolio/2/album2.jpg" alt="image" /> */}
-                  <div className="item-img-overlay"></div>
-                </a>
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusTwo}
+                      alt="picture of uranus two"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -125,18 +126,19 @@ const WorksStyleUranusKor = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items brand wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <a className="imago wow" href="https://music.apple.com/us/album/%EB%AF%B8%EB%9E%98%EA%B0%80/1520967534?i=1520967535" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={UranusThree}
-                    alt="picture of uranus three"
-                  />
-                  {/* <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" /> */}
-                  <div className="item-img-overlay"></div>
-                </a>
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusThree}
+                      alt="picture of uranus three"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -147,18 +149,19 @@ const WorksStyleUranusKor = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items brand wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <a className="imago wow" href="https://music.apple.com/us/album/%EB%AF%B8%EB%9E%98%EA%B0%80/1520967534?i=1520967535" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={UranusFour}
-                    alt="picture of uranus four"
-                  />
-                  {/* <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" /> */}
-                  <div className="item-img-overlay"></div>
-                </a>
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusFour}
+                      alt="picture of uranus Four"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -169,18 +172,19 @@ const WorksStyleUranusKor = ({ grid, hideFilter, filterPosition }) => {
                   : grid === 2
                   ? "col-md-6"
                   : "col-12"
-              } items web wow fadeInUp`}
+              } items brand wow fadeInUp`}
               data-wow-delay=".4s"
             >
               <div className="item-img">
-                <a className="imago wow" href="https://music.apple.com/us/album/%EB%AF%B8%EB%9E%98%EA%B0%80/1520967534?i=1520967535" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={UranusFive}
-                    alt="picture of uranus five"
-                  />
-                  {/* <img src="/img/portfolio/portfolio/2/album1.jpg" alt="image" /> */}
-                  <div className="item-img-overlay"></div>
-                </a>
+                <Link href={`/about/artist/uranus`}>
+                  <a className="imago wow">
+                    <Image
+                      src={UranusFive}
+                      alt="picture of uranus Five"
+                    />
+                    <div className="item-img-overlay"></div>
+                  </a>
+                </Link>
               </div>
             </div>
 
