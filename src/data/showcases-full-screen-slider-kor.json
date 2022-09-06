@@ -15,14 +15,14 @@
     },
     {
       "id": 3,
-      "title": { "first": "아티스트", "second": "오라노스", "three": "아티스트", "four": "정보" },
+      "title": { "first": "아티스트", "second": "Uranus", "three": "아티스트", "four": "정보" },
       "link" : "/kor/about/artist/uranus",
       "image": "/img/portfolio/full/Uranus_cover.jpg",
       "sub": "Design"
     },
     {
       "id": 4,
-      "title": { "first": "아티스트", "second": "민식", "three": "아티스트", "four": "정보" },
+      "title": { "first": "아티스트", "second": "Minshik", "three": "아티스트", "four": "정보" },
       "link" : "/kor/about/artist/minshik",
       "image": "/img/portfolio/full/Minshik_cover.jpg",
       "sub": "Design"
