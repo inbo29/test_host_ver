@@ -62,7 +62,7 @@ const Team2eng = () => {
                 </div>
                 <div className="info">
                   <h6>MAN1AC</h6>
-                  <span>Rapper</span>
+                  <span>CEO & Rapper</span>
                 </div>
               </div>
               <div className="item m-3">

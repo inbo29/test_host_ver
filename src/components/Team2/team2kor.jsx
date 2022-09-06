@@ -14,7 +14,7 @@ const Team2Kor = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
               <h3 className="wow color-font">
-                아티스트
+                CEO & 아티스트
               </h3>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Team2Kor = () => {
                 </div>
                 <div className="info">
                   <h6>MAN1AC</h6>
-                  <span>래퍼</span>
+                  <span>CEO & 래퍼</span>
                 </div>
               </div>
               <div className="item m-3">
