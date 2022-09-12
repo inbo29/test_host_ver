@@ -30,13 +30,13 @@ class MyDocument extends Document {
           <meta property="og:title" content="G.R.E - Entertainment" />
           <meta property="og:description" content="G.R.E - Entertainment" />
           <meta property="og:site_name" content="GREAT RESET ENTERTAINMENT"/>
-          <meta property="og:image" content="https://i.ibb.co/x20mCTN/logo-great-light-png.png"/>
+          <meta property="og:image" content="https://i.ibb.co/64kcYyL/great-reset-png.png"/>
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="G.R.E - Entertainment" />
           <meta name="twitter:description" content="G.R.E - Entertainment" />
-          <meta property="twitter:image" content="https://i.ibb.co/x20mCTN/logo-great-light-png.png"/>
+          <meta property="twitter:image" content="https://i.ibb.co/64kcYyL/great-reset-png.png"/>
           <meta name="twitter:image:width" content="1024" />
           <meta name="twitter:image:height" content="512" />
 
