@@ -58,5 +58,17 @@
             "day": "29",
             "month": "September"
         }
+    },
+    {
+        "id": 6,
+        "title": "Real Hiphop",
+        "content": "Maniac his living in South Korea of the Busan area 7years.",
+        "image": "/img/blog/maniac-2.jpg",
+        "tags": ["Maniac","Rapper", "Uptown", "Artists"],
+        "link": "https://news.v.daum.net/v/20190823102342127?s=print_news",
+        "date": {
+            "day": "29",
+            "month": "September"
+        }
     }
 ]
