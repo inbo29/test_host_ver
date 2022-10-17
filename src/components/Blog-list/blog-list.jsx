@@ -66,12 +66,12 @@ const BlogList = ({ blogs }) => {
                   </div>
                 </div>
               ))}
-              <div className="pagination">
+              {/* <div className="pagination">
                 <span className="active">
                   <Link href={`/news`}>1</Link>
                 </span>
                 <span>
-                  <Link href={`/news`}>2</Link>
+                  <Link href={`/news/2`}>2</Link>
                 </span>
                 <span>
                   <Link href={`/`}>
@@ -80,7 +80,7 @@ const BlogList = ({ blogs }) => {
                     </a>
                   </Link>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

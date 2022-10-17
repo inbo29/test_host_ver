@@ -66,12 +66,12 @@ const BlogListKor = ({ blogs }) => {
                   </div>
                 </div>
               ))}
-              <div className="pagination">
+              {/* <div className="pagination">
                 <span className="active">
                   <Link href={`/kor/news`}>1</Link>
                 </span>
                 <span>
-                  <Link href={`/kor/news`}>2</Link>
+                  <Link href={`/kor/news/2`}>2</Link>
                 </span>
                 <span>
                   <Link href={`/kor`}>
@@ -80,7 +80,7 @@ const BlogListKor = ({ blogs }) => {
                     </a>
                   </Link>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
