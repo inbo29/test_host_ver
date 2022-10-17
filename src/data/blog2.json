@@ -1,7 +1,43 @@
 [
     {
         "id": 1,
-        "title": "사인히어 화제의 참가자 - 오양가",
+        "title": "랩퍼 매니악 Man1ac ‘그레잇리셋' GREAT RESET 엔터테인먼트 설립",
+        "content": "흑인음악의 토착화를 내세웠던 한국 초기 힙합씬의 대표 그룹 업타운, 그리고 한국 힙합크루 지기펠라즈 등으로 활동했던 대한민국의 1세대 랩퍼 매니악(Man1ac)이 코로나로 인하여 위축되었던 힙합씬에 새로운 에너지와 부흥을 불어 넣고자 계속해서 준비해오던 힙합 레이블 ‘그레잇리셋 엔터테인먼트’의 설립을 공식적으로 발표했다",
+        "image": "/img/blog/nsOne.jpg",
+        "tags": ["Man1ac","CuzD", "GRE", "GREATRESET", "Uranus", "Minshik"],
+        "link": "https://www.eanews.kr/news/659475",
+        "date": {
+            "day": "17",
+            "month": "September"
+        }
+    },
+    {
+        "id": 2,
+        "title": "수억원을 호가하는 BAYC 원숭이 NFT를 구매한 한국의 힙합 레이블 그레잇 리셋",
+        "content": "힙합씬에 새롭게 등장한 힙합레이블 ‘그레잇리셋’의 수장 매니악의 인스타에 지금까지 힙합씬에서 보지 못했던 ‘새로운 방식의 플렉스’가 피드로 올라와 화제가 되고 있다.",
+        "image": "/img/blog/nsTwo.jpg",
+        "tags": ["GREATRESET","Man1ac", "Flex", "NFT", "BAYC", "boredapeyc"],
+        "link": "https://www.eanews.kr/news/659477",
+        "date": {
+            "day": "17",
+            "month": "September"
+        }
+    },
+    {
+        "id": 3,
+        "title": "'GRAET RESET' 엔터사업 NFT 본격 사업추진을 위해 카동 '케이블록과 업무협약 체결 BAYC 원숭이 레이블 그레잇리셋",
+        "content": "수억원을 호가하는 BAYC 원숭이 NFT를 구매한 한국의 힙합 레이블 그레잇리셋 랩퍼 매니악(MAN1AC)은 NFT 전문 기업 ㈜케이블록, 그리고 자동차 관련 기업인 카동과 업무협약 케이블록과 카동을 통해 그레잇리셋이 보유한 BAYC NFT캐릭터를 상품화 하여 판매할 예정",
+        "image": "/img/blog/nsThree.jpg",
+        "tags": ["GREATRESET", "NFT", "BAYC", "CARDONG", "KBLOCK","Man1ac"],
+        "link": "https://www.eanews.kr/news/664781",
+        "date": {
+            "day": "22",
+            "month": "August"
+        }
+    },
+    {
+        "id": 4,
+        "title": "사인히어 화제의 참가자 - 오양가(Uranus)",
         "content": "2019년 사인히어 몽골인 참가자 오양가 독특한 음색",
         "image": "/img/blog/uranus-1.jpg",
         "tags": ["Uranus","Singer", "Mongolia", "Artists"],
@@ -12,7 +48,7 @@
         }
     },
     {
-        "id": 2,
+        "id": 5,
         "title": "Real Hiphop",
         "content": "Maniac his living in South Korea of the Busan area 7years.",
         "image": "/img/blog/maniac-2.jpg",
