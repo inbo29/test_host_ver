@@ -182,6 +182,11 @@ const NavbarFullMenu = ({ theme }) => {
                     <a href="#0">thehowl88@gmail.com</a>
                   </p>
                 </div>
+                {/* <div className="item">
+                  <p>
+                    
+                  </p>
+                </div> */}
                 <div className="item">
                   <p>
                     Copyright©  GDACS Holdings Co.,ltd. All rights reversed.

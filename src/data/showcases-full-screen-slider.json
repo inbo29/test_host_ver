@@ -29,13 +29,20 @@
     },
     {
       "id": 5,
+      "title": { "first": "MASCOT", "second": "BAYC", "three": "MASCOT", "four": "" },
+      "link" : "/",
+      "image": "/img/portfolio/portfolio/Bayc/s2.png",
+      "sub": "Design"
+    },
+    {
+      "id": 6,
       "title": { "first": "News", "second": "", "three": "Read", "four": "more" },
       "link" : "/news",
       "image": "",
       "sub": "Design"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": { "first": "Shop", "second": "", "three": "Coming", "four": "soon" },
       "link" : "",
       "image": "/img/portfolio/full/5.jpg",
