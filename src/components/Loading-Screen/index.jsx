@@ -2,6 +2,8 @@ import React from "react";
 import Script from "next/script";
 import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
+import Image from "next/image"
+import Bayc from "../../../public/img/portfolio/portfolio/Bayc/a2.jpg"
 
 const LoadingScreen = () => {
   React.useEffect(() => {
@@ -20,6 +22,10 @@ const LoadingScreen = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
+          {/* <Image
+            src={Bayc}
+            alt="NFT"
+          /> */}
           <span>L</span>
           <span>o</span>
           <span>a</span>

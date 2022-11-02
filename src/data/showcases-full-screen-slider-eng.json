@@ -23,14 +23,14 @@
     {
       "id": 4,
       "title": { "first": "Artist", "second": "Minshik", "three": "Artist", "four": "info" },
-      "link" : "/about/artist/minshik",
+      "link" : "/eng/about/artist/minshik",
       "image": "/img/portfolio/full/Minshik_cover.jpg",
       "sub": "Design"
     },
     {
       "id": 5,
-      "title": { "first": "MASCOT", "second": "BAYC", "three": "MASCOT", "four": "info" },
-      "link" : "/about/mascot/bayc",
+      "title": { "first": "MASCOT", "second": "BAYC", "three": "MASCOT", "four": "" },
+      "link" : "/eng",
       "image": "/img/portfolio/portfolio/Bayc/s1.png",
       "sub": "Design"
     },

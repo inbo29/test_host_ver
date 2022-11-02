@@ -17,7 +17,7 @@ const About = () => {
 		<NavbarFullMenuEng nr={navbarRef} lr={logoRef} />
 		<PagesHeader />
 		<Team2eng />
-		<Team2engTwo />
+		{/* <Team2engTwo /> */}
 		<Footer hideBGCOLOR />
 		</DarkTheme>
 	);

@@ -20,7 +20,7 @@ const About = () => {
 		<NavbarFullMenu nr={navbarRef} lr={logoRef} />
 		<PagesHeader />
 		<Team2 />
-		<Team2Two />
+		{/* <Team2Two /> */}
 		{/* <MyCalendar /> */}
 		{/* <Sample /> */}
 			{/* <CusAboutBlogGrid blogs={blog3Data} /> */}

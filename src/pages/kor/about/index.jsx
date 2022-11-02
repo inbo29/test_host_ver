@@ -17,7 +17,7 @@ const KorAbout = () => {
 		<NavbarFullMenuKor nr={navbarRef} lr={logoRef} />
 		<PagesHeaderKor />
 		<Team2Kor />
-		<Team2KorTwo />
+		{/* <Team2KorTwo /> */}
 		<FooterKor hideBGCOLOR />
 		</DarkTheme>
 	);

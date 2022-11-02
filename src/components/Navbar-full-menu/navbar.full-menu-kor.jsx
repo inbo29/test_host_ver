@@ -127,7 +127,7 @@ const NavbarFullMenuKor = ({ theme }) => {
                       </ul>
                     </div>
                   </li>
-                  <li>
+                  {/* <li>
                     <div className="o-hidden">
                       <span className="link dmenu">
                         
@@ -155,12 +155,12 @@ const NavbarFullMenuKor = ({ theme }) => {
                         </li>
                       </ul>
                     </div>
-                  </li>
+                  </li> */}
                   <li>
                     <div className="o-hidden">
                       <Link href={`/kor/news`}>
                         <a className="link">
-                          <span className="nm">04.</span>뉴스
+                          <span className="nm">03.</span>뉴스
                         </a>
                       </Link>
                     </div>
@@ -169,7 +169,7 @@ const NavbarFullMenuKor = ({ theme }) => {
                     <div className="o-hidden">
                       <Link href={`/kor`}>
                         <a className="link">
-                          <span className="nm">05.</span>마켓
+                          <span className="nm">04.</span>마켓
                         </a>
                       </Link>
                     </div>
@@ -178,7 +178,7 @@ const NavbarFullMenuKor = ({ theme }) => {
                     <div className="o-hidden">
                       <Link href={`/kor/contact`}>
                         <a className="link">
-                          <span className="nm">06.</span>Contact
+                          <span className="nm">05.</span>Contact
                         </a>
                       </Link>
                     </div>
