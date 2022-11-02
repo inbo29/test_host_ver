@@ -29,8 +29,8 @@
     },
     {
       "id": 5,
-      "title": { "first": "MASCOT", "second": "BAYC", "three": "MASCOT", "four": "" },
-      "link" : "/",
+      "title": { "first": "MASCOT", "second": "BAYC", "three": "MASCOT", "four": "info" },
+      "link" : "/about/mascot/bayc",
       "image": "/img/portfolio/portfolio/Bayc/s2.png",
       "sub": "Design"
     },

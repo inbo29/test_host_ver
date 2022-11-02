@@ -136,9 +136,38 @@ const NavbarFullMenuEng = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
+                      <span className="link dmenu">
+                        
+                        <span className="nm">03.</span>Mascot
+                        <i className="fas fa-angle-right"></i>
+                      </span>
+                    </div>
+                    <div className="sub-menu">
+                      <ul>
+                        <li>
+                          <div className="o-hidden">
+                            <span className="sub-link back">
+                              <i className="pe-7s-angle-left"></i> Go Back
+                            </span>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="o-hidden">
+                            <Link href={`/eng/about/mascot/bayc`}>
+                              <a className="sub-link">
+                                <span className="nm">01.</span>BAYC
+                              </a>
+                            </Link>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="o-hidden">
                       <Link href={`/eng/news`}>
                         <a className="link">
-                          <span className="nm">03.</span>News
+                          <span className="nm">04.</span>News
                         </a>
                       </Link>
                     </div>
@@ -147,7 +176,7 @@ const NavbarFullMenuEng = ({ theme }) => {
                     <div className="o-hidden">
                       <Link href={`/eng`}>
                         <a className="link">
-                          <span className="nm">04.</span>Shop
+                          <span className="nm">05.</span>Shop
                         </a>
                       </Link>
                     </div>
@@ -156,7 +185,7 @@ const NavbarFullMenuEng = ({ theme }) => {
                     <div className="o-hidden">
                       <Link href={`/eng/contact`}>
                         <a className="link">
-                          <span className="nm">04.</span>Contact
+                          <span className="nm">06.</span>Contact
                         </a>
                       </Link>
                     </div>

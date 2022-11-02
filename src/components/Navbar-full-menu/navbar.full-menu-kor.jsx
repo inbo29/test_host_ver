@@ -129,9 +129,38 @@ const NavbarFullMenuKor = ({ theme }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
+                      <span className="link dmenu">
+                        
+                        <span className="nm">03.</span>마스코트
+                        <i className="fas fa-angle-right"></i>
+                      </span>
+                    </div>
+                    <div className="sub-menu">
+                      <ul>
+                        <li>
+                          <div className="o-hidden">
+                            <span className="sub-link back">
+                              <i className="pe-7s-angle-left"></i> 돌아가기
+                            </span>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="o-hidden">
+                            <Link href={`/kor/about/mascot/bayc`}>
+                              <a className="sub-link">
+                                <span className="nm">01.</span>BAYC
+                              </a>
+                            </Link>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="o-hidden">
                       <Link href={`/kor/news`}>
                         <a className="link">
-                          <span className="nm">03.</span>뉴스
+                          <span className="nm">04.</span>뉴스
                         </a>
                       </Link>
                     </div>
@@ -140,7 +169,7 @@ const NavbarFullMenuKor = ({ theme }) => {
                     <div className="o-hidden">
                       <Link href={`/kor`}>
                         <a className="link">
-                          <span className="nm">04.</span>마켓
+                          <span className="nm">05.</span>마켓
                         </a>
                       </Link>
                     </div>
@@ -149,7 +178,7 @@ const NavbarFullMenuKor = ({ theme }) => {
                     <div className="o-hidden">
                       <Link href={`/kor/contact`}>
                         <a className="link">
-                          <span className="nm">04.</span>Contact
+                          <span className="nm">06.</span>Contact
                         </a>
                       </Link>
                     </div>

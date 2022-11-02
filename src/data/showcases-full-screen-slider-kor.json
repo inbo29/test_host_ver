@@ -29,8 +29,8 @@
     },
     {
       "id": 5,
-      "title": { "first": "마스코트", "second": "BAYC", "three": "마스코트", "four": "" },
-      "link" : "/",
+      "title": { "first": "마스코트", "second": "BAYC", "three": "마스코트", "four": "정보" },
+      "link" : "/kor/about/mascot/bayc",
       "image": "/img/portfolio/portfolio/Bayc/s1.png",
       "sub": "Design"
     },

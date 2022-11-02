@@ -3,6 +3,7 @@ import NavbarFullMenuEng from "../../../components/Navbar-full-menu/navbar.full-
 import PagesHeader from "../../../components/Pages-header/index";
 import DarkTheme from "../../../layouts/Dark";
 import Team2eng from "../../../components/Team2/team2eng";
+import Team2engTwo from "../../../components/Team2/team2engTwo";
 import Footer from "../../../components/Footer/footer";
 
 
@@ -16,6 +17,7 @@ const About = () => {
 		<NavbarFullMenuEng nr={navbarRef} lr={logoRef} />
 		<PagesHeader />
 		<Team2eng />
+		<Team2engTwo />
 		<Footer hideBGCOLOR />
 		</DarkTheme>
 	);
