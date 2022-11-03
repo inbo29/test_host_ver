@@ -22,9 +22,7 @@ const LoadingScreen = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
-          <span 
-            className="imgLoad"
-          >
+          <span>
             <Image
               src={load}
               alt="load image"
