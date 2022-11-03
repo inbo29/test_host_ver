@@ -26,7 +26,6 @@ const LoadingScreen = () => {
 
           </div> */}
           <span 
-            style={{ width: '50px' }}
             className="imgLoad"
           >
             <Image
