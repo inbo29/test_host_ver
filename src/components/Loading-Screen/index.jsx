@@ -2,8 +2,8 @@ import React from "react";
 import Script from "next/script";
 import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
-import Image from "next/image";
-import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
+// import Image from "next/image";
+// import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
 
 const LoadingScreen = () => {
   React.useEffect(() => {
@@ -22,7 +22,7 @@ const LoadingScreen = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
-          <span>
+          {/* <span>
             <Image
               src={load}
               alt="load image"
@@ -30,7 +30,7 @@ const LoadingScreen = () => {
               height={50}
             >
             </Image>
-          </span>
+          </span> */}
           <span>L</span>
           <span>o</span>
           <span>a</span>
