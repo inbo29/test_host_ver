@@ -26,7 +26,7 @@ const BlogGridDark = () => {
 			title="News"
 		/>
 		<BlogList blogs={blog2Data} />
-		<WorksStyleManiac />
+		{/* <WorksStyleManiac /> */}
         <Footer hideBGCOLOR />
 		</DarkTheme>
 	);

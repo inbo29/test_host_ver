@@ -2,8 +2,8 @@ import React from "react";
 import Script from "next/script";
 import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
-import Image from "next/image"
-import Bayc from "../../../public/img/portfolio/portfolio/Bayc/a2.jpg"
+import Image from "next/image";
+import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
 
 const LoadingScreen = () => {
   React.useEffect(() => {
@@ -22,10 +22,19 @@ const LoadingScreen = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
-          {/* <Image
-            src={Bayc}
-            alt="NFT"
-          /> */}
+          {/* <div className="text center">
+
+          </div> */}
+          <span 
+            style={{ width: '50px' }}
+            className="imgLoad"
+          >
+            <Image
+              src={load}
+              alt="load image"
+            >
+            </Image>
+          </span>
           <span>L</span>
           <span>o</span>
           <span>a</span>
@@ -33,6 +42,7 @@ const LoadingScreen = () => {
           <span>i</span>
           <span>n</span>
           <span>g</span>
+
         </div>
         <div id="preloader"></div>
       </div>
