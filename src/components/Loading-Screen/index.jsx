@@ -21,8 +21,8 @@ const LoadingScreen = () => {
   return (
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
-        <div className="loading">
-          <span className="imgLoad">
+        <div className="loading text-center">
+          <div className="imgLoad">
             <Image
               src={load}
               alt="load image"
@@ -30,7 +30,7 @@ const LoadingScreen = () => {
               height={50}
             >
             </Image>
-          </span>
+          </div>
           <span>L</span>
           <span>o</span>
           <span>a</span>

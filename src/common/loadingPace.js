@@ -13,6 +13,7 @@ const loadingPace = () => {
 
   if (document.querySelector("body").classList.contains("pace-done")) {
     document.querySelector("#preloader").classList.add("isdone");
+    document.querySelector(".imgLoad").classList.add("isdone");
     document.querySelector(".loading").classList.add("isdone");
   }
 
