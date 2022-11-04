@@ -1287,7 +1287,7 @@ body {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: #12c2e9;
+  /* background-color: #12c2e9; */
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
@@ -1301,16 +1301,16 @@ body {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #12c2e9;
+  /* background-color: #12c2e9; */
   opacity: 0.3;
 }
 
 .cursor-outer {
-  margin-left: -15px;
+  margin-left: -25px;
   margin-top: -15px;
   width: 40px;
   height: 40px;
-  border: 1px solid #12c2e9;
+  /* border: 1px solid #12c2e9; */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;

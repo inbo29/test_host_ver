@@ -1,5 +1,7 @@
 import React from "react";
 import mouseEffect from "../../common/mouseEffect";
+import Image from "next/image"
+import bayc from "../../../public/img/portfolio/portfolio/Bayc/load.png"
 
 const Cursor = () => {
   React.useEffect(() => {
@@ -7,7 +9,15 @@ const Cursor = () => {
   }, []);
   return (
     <>
-      <div className="mouse-cursor cursor-outer"></div>
+      <div className="mouse-cursor cursor-outer">
+        <Image
+          src={bayc}
+          alt="mouse image"
+          width={100}
+          height={100}
+        >
+        </Image>
+      </div>
       <div className="mouse-cursor cursor-inner"></div>
     </>
   );
