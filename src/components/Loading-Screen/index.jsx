@@ -2,9 +2,6 @@ import React from "react";
 import Script from "next/script";
 import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
-import item from "../../data/item.json";
-import Image from "next/image";
-import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
 
 const LoadingScreen = () => {
   React.useEffect(() => {
@@ -22,12 +19,7 @@ const LoadingScreen = () => {
   return (
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
-        <div className="loading text-center">
-          <div 
-            className="imgLoad"
-          >
-            <img src={item.image} alt="" />
-          </div>
+        <div className="loading">
           <span>L</span>
           <span>o</span>
           <span>a</span>
@@ -35,7 +27,6 @@ const LoadingScreen = () => {
           <span>i</span>
           <span>n</span>
           <span>g</span>
-
         </div>
         <div id="preloader"></div>
       </div>
