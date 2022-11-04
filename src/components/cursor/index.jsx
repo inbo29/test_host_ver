@@ -11,6 +11,7 @@ const Cursor = () => {
     <>
       <div className="mouse-cursor cursor-outer">
         <Image
+          className="rotationImg"
           src={bayc}
           alt="mouse image"
           width={100}
@@ -18,7 +19,8 @@ const Cursor = () => {
         >
         </Image>
       </div>
-      <div className="mouse-cursor cursor-inner"></div>
+      <div className="mouse-cursor cursor-inner">
+      </div>
     </>
   );
 };
