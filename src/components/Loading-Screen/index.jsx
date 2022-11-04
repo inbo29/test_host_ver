@@ -2,6 +2,7 @@ import React from "react";
 import Script from "next/script";
 import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
+import item from "../../data/item.json";
 import Image from "next/image";
 import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
 
@@ -22,14 +23,10 @@ const LoadingScreen = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading text-center">
-          <div className="imgLoad">
-            <Image
-              src={load}
-              alt="load image"
-              width={50}
-              height={50}
-            >
-            </Image>
+          <div 
+            className="imgLoad"
+          >
+            <img src={item.image} alt="" />
           </div>
           <span>L</span>
           <span>o</span>
