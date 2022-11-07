@@ -1279,7 +1279,7 @@ span:hover {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-.mouse-cursor {
+/* .mouse-cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -1288,36 +1288,36 @@ span:hover {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   visibility: hidden;
-}
+} */
 
-.cursor-inner {
+/* .cursor-inner {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  /* background-color: #12c2e9; */
+  background-color: #12c2e9;
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
+} */
 
-.cursor-inner.cursor-hover {
+/* .cursor-inner.cursor-hover {
   margin-left: -35px;
   margin-top: -35px;
   width: 70px;
   height: 70px;
-  /* background-color: #12c2e9; */
+  background-color: #12c2e9;
   opacity: 0.3;
-}
+} */
 
-.cursor-outer {
+/* .cursor-outer {
   margin-left: -35px;
   margin-top: -12px;
   width: 40px;
   height: 40px;
-  /* border: 1px solid #12c2e9; */
+  border: 1px solid #12c2e9;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;
@@ -1325,11 +1325,11 @@ span:hover {
   -webkit-transition: all 0.08s ease-out;
   -o-transition: all 0.08s ease-out;
   transition: all 0.08s ease-out;
-	/* background: url('/public/img//portfolio//portfolio//Bayc/load.png') center; */
+	background: url('/public/img//portfolio//portfolio//Bayc/load.png') center;
   
-}
+} */
 
-.cursor-outer
+/* .cursor-outer */
 
 /* .rotationImg {
   position: absolute;
@@ -1366,9 +1366,9 @@ span:hover {
   to {transform: rotate(359deg);}
 } */
 
-.cursor-outer.cursor-hover {
+/* .cursor-outer.cursor-hover {
   opacity: 0;
-}
+} */
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */

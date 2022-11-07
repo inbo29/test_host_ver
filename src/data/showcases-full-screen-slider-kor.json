@@ -29,20 +29,13 @@
     },
     {
       "id": 5,
-      "title": { "first": "마스코트", "second": "BAYC", "three": "마스코트", "four": "" },
-      "link" : "/kor",
-      "image": "/img/portfolio/full/bayc_cover.jpg",
-      "sub": "Design"
-    },
-    {
-      "id": 6,
       "title": { "first": "뉴스", "second": "", "three": "더보기", "four": "" },
       "link" : "/kor/news",
       "image": "",
       "sub": "Design"
     },
     {
-      "id": 7,
+      "id": 6,
       "title": { "first": "마켓", "second": "", "three": "Coming", "four": "soon" },
       "link" : "",
       "image": "/img/portfolio/full/5.jpg",

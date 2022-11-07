@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
         <title>GRE</title>
         <link rel="icon" href="/img/favicon2.ico" />
       </Head>
-      <Cursor />
+      {/* <Cursor /> */}
       <LoadingScreen />
       <Component {...pageProps} />
       <ScrollToTop />

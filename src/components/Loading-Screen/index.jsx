@@ -2,8 +2,11 @@ import React from "react";
 import Script from "next/script";
 import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
-import Image from "next/image";
-import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
+
+// import loadingV from "../../../public/video/loadingV.mp4";
+// import Image from "next/image";
+// import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
+
 
 const LoadingScreen = () => {
   React.useEffect(() => {
@@ -21,8 +24,13 @@ const LoadingScreen = () => {
   return (
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
-        <div className="loading text-center">
-          <div 
+        <div className="loading">
+        {/* <div className="videoload"> */}
+          {/* <video src={require('../../../public/videoloadingV.mp4')} /> */}
+          {/* <div className="videoLoad">
+
+          </div> */}
+          {/* <div 
             className="imgLoad"
           >
             <Image
@@ -32,7 +40,7 @@ const LoadingScreen = () => {
               height={50}
             >
             </Image>
-          </div>
+          </div> */}
           <span>L</span>
           <span>o</span>
           <span>a</span>

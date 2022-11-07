@@ -138,6 +138,14 @@ option {
   height: auto;
 }
 
+.videoLoad {
+  background-image: url(../../public/video/loadingV.gif);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .spinner-wrapper {
   height: 100vh;
   width: 100vw;
