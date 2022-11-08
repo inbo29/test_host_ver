@@ -133,6 +133,56 @@ option {
   color: #0ff;
 }
 
+
+// .loadV {
+//   position: fixed;
+//   left: 50%;
+//   top: calc(50% - 40px);
+//   -webkit-transform: translateX(-50%) translateY(-50%);
+//   -ms-transform: translateX(-50%) translateY(-50%);
+//   transform: translateX(-50%) translateY(-50%);
+//   font-weight: 300;
+//   font-size: 13px;
+//   text-transform: uppercase;
+//   letter-spacing: 10px;
+//   z-index: 9999999999;
+// }
+
+// .loadV.isdone {
+//   top: 50%;
+//   opacity: 0;
+//   -webkit-transition: all 0.8s;
+//   -o-transition: all 0.8s;
+//   transition: all 0.8s;
+//   -webkit-transition-delay: 0.5s;
+//   -o-transition-delay: 0.5s;
+//   transition-delay: 0.5s;
+// }
+
+
+
+// @-webkit-keyframes loadV {
+//   0% {
+//     opacity: 1;
+//   }
+
+//   100% {
+//     opacity: 0;
+//   }
+// }
+
+// @keyframes loadV {
+//   0% {
+//     opacity: 1;
+//   }
+
+//   100% {
+//     opacity: 0;
+//   }
+// }
+
+
+
 .imgLoad {
   width: 100%;
   height: auto;

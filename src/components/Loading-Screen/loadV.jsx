@@ -3,11 +3,10 @@ import Script from "next/script";
 import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
 import loadVideo from "../../../public/video/loadingV.mp4";
-// import loadingV from "../../../public/video/loadingV.mp4";
-// import Image from "next/image";
-// import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
+import styles from "./loadV.module.css"
 
 const LoadingScreenVideo = () => {
+
   React.useEffect(() => {
     let bodyEl = document.querySelector("body");
     if (appData.showLoading) {
@@ -24,12 +23,15 @@ const LoadingScreenVideo = () => {
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
-          <video
+          <video 
+            className={styles.video}
+            id="LoadVideo"
+            src={loadVideo}
+            type="video/mp4"
             autoPlay
             loop
             muted
           >
-            <source  src={loadVideo} type="video/mp4"/>
           </video>
         </div>
         <div id="preloader"></div>

@@ -4,6 +4,7 @@ import Script from "next/script";
 import Cursor from "../components/cursor";
 import ScrollToTop from "../components/scrollToTop";
 import LoadingScreen from "../components/Loading-Screen";
+import LoadingScreenVideo from "../components/Loading-Screen/loadV"
 import "../styles/main.scss";
 
 
@@ -17,7 +18,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/img/favicon2.ico" />
       </Head>
       {/* <Cursor /> */}
-      <LoadingScreen />
+      {/* <LoadingScreen /> */}
+      <LoadingScreenVideo/>
       <Component {...pageProps} />
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
