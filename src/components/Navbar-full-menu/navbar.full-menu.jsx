@@ -71,7 +71,7 @@ const NavbarFullMenu = ({ theme }) => {
               </div>
             </li>
           </div>
-          <div className="menu">
+          {/* <div className="menu">
             <div className="menu-img">
               <Image
                 src={menuBayc}
@@ -82,7 +82,7 @@ const NavbarFullMenu = ({ theme }) => {
 
               </Image>
             </div>
-          </div>
+          </div> */}
           {/* <div className="submenu">
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
