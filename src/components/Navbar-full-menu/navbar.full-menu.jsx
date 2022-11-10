@@ -3,7 +3,9 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import initFullNavbarMenu from "../../common/initFullNavbarMenu";
+import Image from "next/image";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
+import menuBayc from "../../../public/img/portfolio/portfolio/Bayc/load.png"
 
 
 const NavbarFullMenu = ({ theme }) => {
@@ -69,6 +71,27 @@ const NavbarFullMenu = ({ theme }) => {
               </div>
             </li>
           </div>
+          <div className="menu">
+            <div className="menu-img">
+              <Image
+                src={menuBayc}
+                alt="menu img"
+                width={25}
+                height={25}
+              >
+
+              </Image>
+            </div>
+          </div>
+          {/* <div className="submenu">
+            <li className="nav-item dropdown" onClick={handleDropdown}>
+              <span
+                className="nav-link dropdown-toggle"
+              >
+                Eng
+              </span>
+            </li>
+          </div> */}
         </div>
       </div>
 
