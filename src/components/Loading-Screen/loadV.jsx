@@ -26,7 +26,7 @@ const LoadingScreenVideo = () => {
           <video 
             className={styles.video}
             id="LoadVideo"
-            autoPlay
+            autoPlay={true}
             loop
             muted
           >
