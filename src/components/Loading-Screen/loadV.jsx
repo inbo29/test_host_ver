@@ -26,12 +26,11 @@ const LoadingScreenVideo = () => {
           <video 
             className={styles.video}
             id="LoadVideo"
-            src={loadVideo}
-            type="video/mp4"
             autoPlay
             loop
             muted
           >
+            <source  src={loadVideo} type="video/mp4" />
           </video>
         </div>
         <div id="preloader"></div>
