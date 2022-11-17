@@ -10,7 +10,7 @@ import {Modal} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
 import loadVideo from "../../public/video/loadingV.mp4";
-// import styles from "../components/Loading-Screen/loadV.module.css"
+import styles from "../components/Loading-Screen/loadV.module.css"
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import ModalVideo from 'react-modal-video'
 // import Loading from "../components/Loading-Screen/loading"
@@ -104,7 +104,7 @@ function MyApp({ Component, pageProps }) {
       <div>
 
       </div>
-      <Alert show={show} variant="dark" Container fluid responsive>
+      <Alert show={show} variant="dark">
         {/* <Alert.Heading>GREAT RESET</Alert.Heading> */}
         {/* <p>
           Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
@@ -113,7 +113,7 @@ function MyApp({ Component, pageProps }) {
         </p> */}
         
         <video 
-          // className={styles.video}
+          className={styles.video}
           // width={100}
           playsInline
           id="LoadVideo"
