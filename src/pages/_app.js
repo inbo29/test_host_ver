@@ -104,7 +104,7 @@ function MyApp({ Component, pageProps }) {
       <div>
 
       </div>
-      <Alert show={show} variant="dark" Container fluid>
+      <Alert show={show} variant="dark" Container fluid responsive>
         {/* <Alert.Heading>GREAT RESET</Alert.Heading> */}
         {/* <p>
           Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
