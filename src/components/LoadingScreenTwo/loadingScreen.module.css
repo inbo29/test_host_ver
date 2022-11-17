@@ -1,109 +1,90 @@
-* {
-	padding: 0px;
-	margin: 0px;
+.body_loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 }
 
-body {
-	overflow: hidden;
+.none {
+display: none;
 }
 
-.pageBg {
-	position: absolute;
-	top: -20px;
-	left: -20px;
-	right: -20px;
-	bottom: -20px;
-	background: url('https://i.imgur.com/BlihuYt.jpg') center;
-	-webkit-filter: blur(0px);
-	z-index: 10;
+.video {   
+	width: 100%;
+	height: 100%;
+	object-fit: cover;   
+	/* position: fixed; */
+	z-index: -1; 
+	transition-duration: 3s;
+	/* transition-timing-function: ease-in-out; */
 }
 
-.preloader {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	background: -webkit-radial-gradient(rgba(0,0,0,0) 50%,rgba(0,0,0,0.8));
-	z-index: 10;
-}
-
-.preloader > .preloaderBox {
-	position: absolute;
-	width: 345px;
-	height: 30px;
-	top: 50%;
-	left: 50%;
-	margin: -15px 0 0 -150px;
-	-webkit-perspective: 200px;
-}
-
-.preloader .preloaderBox > div {
-	position: relative;
-	width: 30px;
-	height: 30px;
-	background: #CCC;
-	float: left;
-	text-align: center;
-	line-height: 30px;
-	font-family: Verdana;
-	font-size: 20px;
-	color: #FFF;
-}
-
-.preloader .preloaderBox > div:nth-child(1) {
-	background: #3366FF;
-	margin-right: 15px;
-	-webkit-animation: movement 600ms ease 0ms infinite alternate;
-}
-.preloader .preloaderBox > div:nth-child(2) {
-	background: #3366FF;
-	margin-right: 15px;
-	-webkit-animation: movement 600ms ease 75ms infinite alternate;
-}
-.preloader .preloaderBox > div:nth-child(3) {
-	background: #3366FF;
-	margin-right: 15px;
-	-webkit-animation: movement 600ms ease 150ms infinite alternate;
-}
-
-.preloader .preloaderBox > div:nth-child(4) {
-	background: #3366FF;
-	margin-right: 15px;
-	-webkit-animation: movement 600ms ease 225ms infinite alternate;
-}
-
-.preloader .preloaderBox > div:nth-child(5) {
-	background: #3366FF;
-	margin-right: 15px;
-	-webkit-animation: movement 600ms ease 300ms infinite alternate;
-}
-
-.preloader .preloaderBox > div:nth-child(6) {
-	background: #3366FF;
-	margin-right: 15px;
-	-webkit-animation: movement 600ms ease 375ms infinite alternate;
-}
-
-.preloader .preloaderBox > div:nth-child(7) {
-	background: #3366FF;
-	margin-right: 15px;
-	-webkit-animation: movement 600ms ease 450ms infinite alternate;
-}
-
-.preloader .preloaderBox > div:nth-child(8) {
-	background: #3366FF;
-	-webkit-animation: movement 600ms ease 525ms infinite alternate;
-}
-
-@-webkit-keyframes movement {
-	from {
-		-webkit-transform: scale(1.0) translateY(0px) rotateX(0deg);
-		box-shadow: 0 0 0 rgba(0,0,0,0);
+@media screen and (max-width: 767px) {
+	.video {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
 	}
-	to {
-		-webkit-transform: scale(1.5) translateY(-25px) rotateX(45deg);
-		box-shadow: 0 25px 40px rgba(0,0,0,0.4);
-		background: #3399FF;
-	}
+}
+
+.lds_ellipsis {
+display: inline-block;
+position: relative;
+width: 80px;
+height: 80px;
+}
+
+.lds_ellipsis div {
+position: absolute;
+top: 33px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background: var(--orange);
+animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds_ellipsis div:nth-child(1) {
+left: 8px;
+animation: lds_ellipsis1 0.6s infinite;
+}
+
+.lds_ellipsis div:nth-child(2) {
+left: 8px;
+animation: lds_ellipsis2 0.6s infinite;
+}
+
+.lds_ellipsis div:nth-child(3) {
+left: 32px;
+animation: lds_ellipsis2 0.6s infinite;
+}
+
+.lds_ellipsis div:nth-child(4) {
+left: 56px;
+animation: lds_ellipsis3 0.6s infinite;
+}
+
+@keyframes lds_ellipsis1 {
+0% {
+	transform: scale(0);
+}
+100% {
+	transform: scale(1);
+}
+}
+@keyframes lds_ellipsis3 {
+0% {
+	transform: scale(1);
+}
+100% {
+	transform: scale(0);
+}
+}
+@keyframes lds_ellipsis2 {
+0% {
+	transform: translate(0, 0);
+}
+100% {
+	transform: translate(24px, 0);
+}
 }

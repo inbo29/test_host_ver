@@ -1,17 +1,34 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import initFullNavbarMenu from "../../common/initFullNavbarMenu";
-import Image from "next/image";
+import { useSpring } from "react-spring";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
+import Modal from "../Modal/index"
+import Image from "next/image";
 import menuBayc from "../../../public/img/portfolio/portfolio/Bayc/load.png"
 
+const NavbarFullMenu = ({ theme,open,onClose }) => {
+  // const [openModal, setOpenModal] = useState(false)
 
-const NavbarFullMenu = ({ theme }) => {
+
+  // const [load, setLoad] = React.useState(true);
+
+
+  const styles = useSpring({
+    delay: 100,
+    loop: true,
+    to: [
+    { opacity: 1 },
+    { opacity: 2 },
+    ],
+    from: { opacity: 0 },
+  });
   React.useEffect(() => {
     initFullNavbarMenu()
   }, [])
+
   return (
     <>
       <div
@@ -71,26 +88,9 @@ const NavbarFullMenu = ({ theme }) => {
               </div>
             </li>
           </div>
-          {/* <div className="menu">
-            <div className="menu-img">
-              <Image
-                src={menuBayc}
-                alt="menu img"
-                width={25}
-                height={25}
-              >
-
-              </Image>
-            </div>
-          </div> */}
-          {/* <div className="submenu">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-              >
-                Eng
-              </span>
-            </li>
+          {/* <div className="sub-menu">
+            <button className="modalBtn" onClick={() => setOpenModal(true)}>Modal</button>
+            <Modal open={openModal} onClose={()=> setOpenModal(false)}/>
           </div> */}
         </div>
       </div>

@@ -4,8 +4,8 @@ import loadingPace from "../../common/loadingPace";
 import appData from "../../data/app.json";
 
 // import loadingV from "../../../public/video/loadingV.mp4";
-// import Image from "next/image";
-// import load from "../../../public/img/portfolio/portfolio/Bayc/load.png";
+import Image from "next/image";
+import load from "../../../public/video/Spinner.gif";
 
 
 const LoadingScreen = () => {
@@ -20,12 +20,12 @@ const LoadingScreen = () => {
     } else {
       bodyEl.classList.add("hideX");
     }
-  });
+  }, []);
   return (
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
-        {/* <div className="videoload"> */}
+          {/* <div className="videoload"> */}
           {/* <video src={require('../../../public/videoloadingV.mp4')} /> */}
           {/* <div className="videoLoad">
 
@@ -48,7 +48,6 @@ const LoadingScreen = () => {
           <span>i</span>
           <span>n</span>
           <span>g</span>
-
         </div>
         <div id="preloader"></div>
       </div>

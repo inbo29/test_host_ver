@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Link from "next/link";
-import { useSpring, animated } from 'react-spring'
+import Modal from "../Modal/index";
+import { useSpring, animated } from 'react-spring';
 import { Swiper, SwiperSlide } from "swiper/react";
 import ShowcassesFullScreenData from "../../data/showcases-full-screen-slider.json";
 import SwiperCore, {
@@ -21,7 +22,7 @@ SwiperCore.use([Navigation, Pagination, Parallax, Mousewheel]);
 
 const ShowcasesFullScreen = () => {
   const [load, setLoad] = React.useState(true);
-
+  const [openModal, setOpenModal] = useState(true)
 
   const styles = useSpring({
     delay: 2000,
@@ -42,8 +43,11 @@ const ShowcasesFullScreen = () => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   const paginationRef = React.useRef(null);
+
   return (
     <header className="slider showcase-full">
+      {/* <button className="modalBtn" onClick={() => setOpenModal(true)}>Modal</button>
+      <Modal open={openModal} onClose={()=> setOpenModal(false)}/> */}
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
