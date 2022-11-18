@@ -104,7 +104,7 @@ function MyApp({ Component, pageProps }) {
       <div>
 
       </div>
-      <Alert show={show} variant="dark">
+      <Alert show={show} className={styles.alert} variant="">
         {/* <Alert.Heading>GREAT RESET</Alert.Heading> */}
         {/* <p>
           Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
@@ -125,9 +125,9 @@ function MyApp({ Component, pageProps }) {
         >
         </video>
         <hr />
-        <div className="d-flex justify-content-end">
+        <div className="d-flex justify-content-center">
           <Button onClick={() => setShow(false)} variant="dark">
-            Close
+            X
           </Button>
         </div>
       </Alert>
