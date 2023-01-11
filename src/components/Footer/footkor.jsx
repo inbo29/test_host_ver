@@ -18,7 +18,7 @@ const FooterKor = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>주소</h6>
-                    <p>서울특별시 강남구 테헤란로 140 2층</p>
+                    <p>서울시 마포구 월드컵로12길 20</p>
                   </div>
                 </li>
                 <li>

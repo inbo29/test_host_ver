@@ -18,7 +18,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Address</h6>
-                    <p>2nd floor, 12, Airang-ro, Seongbuk-gu, Seoul</p>
+                    <p>20, World Cup-ro 12-gil, Mapo-gu, Seoul</p>
                   </div>
                 </li>
                 <li>

@@ -195,7 +195,7 @@ const NavbarFullMenuKor = ({ theme }) => {
                 <div className="item">
                   <h6>주소 :</h6>
                   <p>
-                    서울특별시 강남구 테헤란로 140 2층
+                    서울시 마포구 월드컵로12길 20
                   </p>
                 </div>
                 <div className="item">

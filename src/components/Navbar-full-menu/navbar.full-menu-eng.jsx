@@ -202,7 +202,7 @@ const NavbarFullMenuEng = ({ theme }) => {
                 <div className="item">
                   <h6>Address :</h6>
                   <p>
-                    2nd floor, 12,Arirang-ro, Seoungbuk-gu, Seoul
+                  20, World Cup-ro 12-gil, Mapo-gu, Seoul
                   </p>
                 </div>
                 <div className="item">
