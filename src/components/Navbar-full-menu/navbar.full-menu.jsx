@@ -41,9 +41,9 @@ const NavbarFullMenu = ({ theme,open,onClose }) => {
               <a>
                 {theme ? (
                   theme === "light" ? (
-                    <img src={appData.darkLogo} alt="logo" />
+                    <img className="logoNew" src={appData.darkLogo} alt="logo" />
                   ) : (
-                    <img src={appData.lightLogo} alt="logo" />
+                    <img className="logoNew" src={appData.lightLogo} alt="logo" />
                   )
                 ) : (
                   <img src={appData.lightLogo} alt="logo" />
