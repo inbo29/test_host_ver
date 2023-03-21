@@ -124,7 +124,7 @@ const Team2 = () => {
                 <div className="text-center">
                   <a>
                     <h3>Uranus</h3>
-                    <p>Musician from mongolia</p>
+                    <p>Musician from Mongolia</p>
                   </a>
                 </div>
               </div>
