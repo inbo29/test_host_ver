@@ -104,13 +104,13 @@ function MyApp({ Component, pageProps }) {
       <div>
 
       </div>
-      <Alert show={show} className={styles.alert} variant="">
-        {/* <Alert.Heading>GREAT RESET</Alert.Heading> */}
-        {/* <p>
+      {/* <Alert show={show} className={styles.alert} variant="">
+        <Alert.Heading>GREAT RESET</Alert.Heading>
+        <p>
           Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
           lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
           fermentum.
-        </p> */}
+        </p>
         
         <video 
           className={styles.video}
@@ -130,7 +130,7 @@ function MyApp({ Component, pageProps }) {
             X
           </Button>
         </div>
-      </Alert>
+      </Alert> */}
 
       {/* {!show && <Button onClick={() => setShow(true)}>Show Alert</Button>} */}
       {/* {[
